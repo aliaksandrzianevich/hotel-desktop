@@ -10,9 +10,9 @@
 
 #pragma warning disable 1591
 
-namespace snglrtycrvtureofspce.Hotels.Desktop {
-    
-    
+namespace Hotels.Desktop {
+
+
     /// <summary>
     ///Represents a strongly typed in-memory cache of data.
     ///</summary>
@@ -23,11 +23,11 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
     [global::System.Xml.Serialization.XmlRootAttribute("dtsInvoice")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
     public partial class dtsInvoice : global::System.Data.DataSet {
-        
+
         private ReservationTableDataTable tableReservationTable;
-        
+
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public dtsInvoice() {
@@ -38,10 +38,10 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             base.Relations.CollectionChanged += schemaChangedHandler;
             this.EndInit();
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected dtsInvoice(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected dtsInvoice(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -74,7 +74,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             base.Tables.CollectionChanged += schemaChangedHandler;
             this.Relations.CollectionChanged += schemaChangedHandler;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -84,7 +84,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.tableReservationTable;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.BrowsableAttribute(true)]
@@ -97,7 +97,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this._schemaSerializationMode = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Hidden)]
@@ -106,7 +106,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return base.Tables;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Hidden)]
@@ -115,7 +115,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return base.Relations;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override void InitializeDerivedDataSet() {
@@ -123,7 +123,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             this.InitClass();
             this.EndInit();
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
@@ -132,19 +132,19 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override bool ShouldSerializeTables() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override bool ShouldSerializeRelations() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override void ReadXmlSerializable(global::System.Xml.XmlReader reader) {
@@ -169,7 +169,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitVars();
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override global::System.Xml.Schema.XmlSchema GetSchemaSerializable() {
@@ -178,13 +178,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             stream.Position = 0;
             return global::System.Xml.Schema.XmlSchema.Read(new global::System.Xml.XmlTextReader(stream), null);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal void InitVars() {
             this.InitVars(true);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal void InitVars(bool initTable) {
@@ -195,7 +195,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitClass() {
@@ -207,13 +207,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             this.tableReservationTable = new ReservationTableDataTable();
             base.Tables.Add(this.tableReservationTable);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private bool ShouldSerializeReservationTable() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void SchemaChanged(object sender, global::System.ComponentModel.CollectionChangeEventArgs e) {
@@ -221,7 +221,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitVars();
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -246,7 +246,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                         if ((s1.Length == s2.Length)) {
                             s1.Position = 0;
                             s2.Position = 0;
-                            for (; ((s1.Position != s1.Length) 
+                            for (; ((s1.Position != s1.Length)
                                         && (s1.ReadByte() == s2.ReadByte())); ) {
                                 ;
                             }
@@ -268,35 +268,35 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             xs.Add(dsSchema);
             return type;
         }
-        
+
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void ReservationTableRowChangeEventHandler(object sender, ReservationTableRowChangeEvent e);
-        
+
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class ReservationTableDataTable : global::System.Data.TypedTableBase<ReservationTableRow> {
-            
+
             private global::System.Data.DataColumn columnReservationID;
-            
+
             private global::System.Data.DataColumn columnFirstname;
-            
+
             private global::System.Data.DataColumn columnLastname;
-            
+
             private global::System.Data.DataColumn columnReservationStartDate;
-            
+
             private global::System.Data.DataColumn columnReservationEndDate;
-            
+
             private global::System.Data.DataColumn columnDateMade;
-            
+
             private global::System.Data.DataColumn columnGuestAddress;
-            
+
             private global::System.Data.DataColumn columnPhone;
-            
+
             private global::System.Data.DataColumn columnTotal;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public ReservationTableDataTable() {
@@ -305,7 +305,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitClass();
                 this.EndInit();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal ReservationTableDataTable(global::System.Data.DataTable table) {
@@ -322,14 +322,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Prefix = table.Prefix;
                 this.MinimumCapacity = table.MinimumCapacity;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected ReservationTableDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected ReservationTableDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                     base(info, context) {
                 this.InitVars();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ReservationIDColumn {
@@ -337,7 +337,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnReservationID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn FirstnameColumn {
@@ -345,7 +345,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnFirstname;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn LastnameColumn {
@@ -353,7 +353,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnLastname;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ReservationStartDateColumn {
@@ -361,7 +361,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnReservationStartDate;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ReservationEndDateColumn {
@@ -369,7 +369,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnReservationEndDate;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn DateMadeColumn {
@@ -377,7 +377,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnDateMade;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn GuestAddressColumn {
@@ -385,7 +385,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnGuestAddress;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn PhoneColumn {
@@ -393,7 +393,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnPhone;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn TotalColumn {
@@ -401,7 +401,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnTotal;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
@@ -410,7 +410,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.Rows.Count;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public ReservationTableRow this[int index] {
@@ -418,25 +418,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((ReservationTableRow)(this.Rows[index]));
                 }
             }
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event ReservationTableRowChangeEventHandler ReservationTableRowChanging;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event ReservationTableRowChangeEventHandler ReservationTableRowChanged;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event ReservationTableRowChangeEventHandler ReservationTableRowDeleting;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event ReservationTableRowChangeEventHandler ReservationTableRowDeleted;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void AddReservationTableRow(ReservationTableRow row) {
                 this.Rows.Add(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public ReservationTableRow AddReservationTableRow(string ReservationID, string Firstname, string Lastname, string ReservationStartDate, string ReservationEndDate, string DateMade, string GuestAddress, string Phone, string Total) {
@@ -455,7 +455,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Rows.Add(rowReservationTableRow);
                 return rowReservationTableRow;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
@@ -463,13 +463,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 cln.InitVars();
                 return cln;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
                 return new ReservationTableDataTable();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
@@ -483,7 +483,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnPhone = base.Columns["Phone"];
                 this.columnTotal = base.Columns["Total"];
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private void InitClass() {
@@ -506,25 +506,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnTotal = new global::System.Data.DataColumn("Total", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnTotal);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public ReservationTableRow NewReservationTableRow() {
                 return ((ReservationTableRow)(this.NewRow()));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
                 return new ReservationTableRow(builder);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
                 return typeof(ReservationTableRow);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
@@ -533,7 +533,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.ReservationTableRowChanged(this, new ReservationTableRowChangeEvent(((ReservationTableRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
@@ -542,7 +542,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.ReservationTableRowChanging(this, new ReservationTableRowChangeEvent(((ReservationTableRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
@@ -551,7 +551,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.ReservationTableRowDeleted(this, new ReservationTableRowChangeEvent(((ReservationTableRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
@@ -560,13 +560,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.ReservationTableRowDeleting(this, new ReservationTableRowChangeEvent(((ReservationTableRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void RemoveReservationTableRow(ReservationTableRow row) {
                 this.Rows.Remove(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -607,7 +607,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                             if ((s1.Length == s2.Length)) {
                                 s1.Position = 0;
                                 s2.Position = 0;
-                                for (; ((s1.Position != s1.Length) 
+                                for (; ((s1.Position != s1.Length)
                                             && (s1.ReadByte() == s2.ReadByte())); ) {
                                     ;
                                 }
@@ -630,21 +630,21 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return type;
             }
         }
-        
+
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class ReservationTableRow : global::System.Data.DataRow {
-            
+
             private ReservationTableDataTable tableReservationTable;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal ReservationTableRow(global::System.Data.DataRowBuilder rb) : 
+            internal ReservationTableRow(global::System.Data.DataRowBuilder rb) :
                     base(rb) {
                 this.tableReservationTable = ((ReservationTableDataTable)(this.Table));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string ReservationID {
@@ -660,7 +660,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tableReservationTable.ReservationIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Firstname {
@@ -676,7 +676,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tableReservationTable.FirstnameColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Lastname {
@@ -692,7 +692,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tableReservationTable.LastnameColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string ReservationStartDate {
@@ -709,7 +709,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tableReservationTable.ReservationStartDateColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string ReservationEndDate {
@@ -726,7 +726,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tableReservationTable.ReservationEndDateColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string DateMade {
@@ -742,7 +742,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tableReservationTable.DateMadeColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string GuestAddress {
@@ -758,7 +758,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tableReservationTable.GuestAddressColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Phone {
@@ -774,7 +774,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tableReservationTable.PhoneColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Total {
@@ -790,133 +790,133 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tableReservationTable.TotalColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsReservationIDNull() {
                 return this.IsNull(this.tableReservationTable.ReservationIDColumn);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetReservationIDNull() {
                 this[this.tableReservationTable.ReservationIDColumn] = global::System.Convert.DBNull;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsFirstnameNull() {
                 return this.IsNull(this.tableReservationTable.FirstnameColumn);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetFirstnameNull() {
                 this[this.tableReservationTable.FirstnameColumn] = global::System.Convert.DBNull;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsLastnameNull() {
                 return this.IsNull(this.tableReservationTable.LastnameColumn);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetLastnameNull() {
                 this[this.tableReservationTable.LastnameColumn] = global::System.Convert.DBNull;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsReservationStartDateNull() {
                 return this.IsNull(this.tableReservationTable.ReservationStartDateColumn);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetReservationStartDateNull() {
                 this[this.tableReservationTable.ReservationStartDateColumn] = global::System.Convert.DBNull;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsReservationEndDateNull() {
                 return this.IsNull(this.tableReservationTable.ReservationEndDateColumn);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetReservationEndDateNull() {
                 this[this.tableReservationTable.ReservationEndDateColumn] = global::System.Convert.DBNull;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsDateMadeNull() {
                 return this.IsNull(this.tableReservationTable.DateMadeColumn);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetDateMadeNull() {
                 this[this.tableReservationTable.DateMadeColumn] = global::System.Convert.DBNull;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsGuestAddressNull() {
                 return this.IsNull(this.tableReservationTable.GuestAddressColumn);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetGuestAddressNull() {
                 this[this.tableReservationTable.GuestAddressColumn] = global::System.Convert.DBNull;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsPhoneNull() {
                 return this.IsNull(this.tableReservationTable.PhoneColumn);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetPhoneNull() {
                 this[this.tableReservationTable.PhoneColumn] = global::System.Convert.DBNull;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsTotalNull() {
                 return this.IsNull(this.tableReservationTable.TotalColumn);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetTotalNull() {
                 this[this.tableReservationTable.TotalColumn] = global::System.Convert.DBNull;
             }
         }
-        
+
         /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public class ReservationTableRowChangeEvent : global::System.EventArgs {
-            
+
             private ReservationTableRow eventRow;
-            
+
             private global::System.Data.DataRowAction eventAction;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public ReservationTableRowChangeEvent(ReservationTableRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public ReservationTableRow Row {
@@ -924,7 +924,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.eventRow;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataRowAction Action {

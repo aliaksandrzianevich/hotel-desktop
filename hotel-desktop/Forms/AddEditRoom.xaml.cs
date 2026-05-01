@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Data.SqlClient;
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Interaction logic for AddEditEmployee.xaml

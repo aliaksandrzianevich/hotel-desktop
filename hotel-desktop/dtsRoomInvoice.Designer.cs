@@ -10,9 +10,9 @@
 
 #pragma warning disable 1591
 
-namespace snglrtycrvtureofspce.Hotels.Desktop {
-    
-    
+namespace Hotels.Desktop {
+
+
     /// <summary>
     ///Represents a strongly typed in-memory cache of data.
     ///</summary>
@@ -23,11 +23,11 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
     [global::System.Xml.Serialization.XmlRootAttribute("dtsRoomInvoice")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
     public partial class dtsRoomInvoice : global::System.Data.DataSet {
-        
+
         private RoomInvoiceTableDataTable tableRoomInvoiceTable;
-        
+
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public dtsRoomInvoice() {
@@ -38,10 +38,10 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             base.Relations.CollectionChanged += schemaChangedHandler;
             this.EndInit();
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected dtsRoomInvoice(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected dtsRoomInvoice(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -74,7 +74,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             base.Tables.CollectionChanged += schemaChangedHandler;
             this.Relations.CollectionChanged += schemaChangedHandler;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -84,7 +84,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.tableRoomInvoiceTable;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.BrowsableAttribute(true)]
@@ -97,7 +97,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this._schemaSerializationMode = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Hidden)]
@@ -106,7 +106,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return base.Tables;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Hidden)]
@@ -115,7 +115,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return base.Relations;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override void InitializeDerivedDataSet() {
@@ -123,7 +123,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             this.InitClass();
             this.EndInit();
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
@@ -132,19 +132,19 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override bool ShouldSerializeTables() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override bool ShouldSerializeRelations() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override void ReadXmlSerializable(global::System.Xml.XmlReader reader) {
@@ -169,7 +169,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitVars();
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override global::System.Xml.Schema.XmlSchema GetSchemaSerializable() {
@@ -178,13 +178,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             stream.Position = 0;
             return global::System.Xml.Schema.XmlSchema.Read(new global::System.Xml.XmlTextReader(stream), null);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal void InitVars() {
             this.InitVars(true);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal void InitVars(bool initTable) {
@@ -195,7 +195,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitClass() {
@@ -207,13 +207,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             this.tableRoomInvoiceTable = new RoomInvoiceTableDataTable();
             base.Tables.Add(this.tableRoomInvoiceTable);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private bool ShouldSerializeRoomInvoiceTable() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void SchemaChanged(object sender, global::System.ComponentModel.CollectionChangeEventArgs e) {
@@ -221,7 +221,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitVars();
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -246,7 +246,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                         if ((s1.Length == s2.Length)) {
                             s1.Position = 0;
                             s2.Position = 0;
-                            for (; ((s1.Position != s1.Length) 
+                            for (; ((s1.Position != s1.Length)
                                         && (s1.ReadByte() == s2.ReadByte())); ) {
                                 ;
                             }
@@ -268,23 +268,23 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             xs.Add(dsSchema);
             return type;
         }
-        
+
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void RoomInvoiceTableRowChangeEventHandler(object sender, RoomInvoiceTableRowChangeEvent e);
-        
+
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class RoomInvoiceTableDataTable : global::System.Data.TypedTableBase<RoomInvoiceTableRow> {
-            
+
             private global::System.Data.DataColumn columnRoomID;
-            
+
             private global::System.Data.DataColumn columnTypeDescription;
-            
+
             private global::System.Data.DataColumn columnCost;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public RoomInvoiceTableDataTable() {
@@ -293,7 +293,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitClass();
                 this.EndInit();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal RoomInvoiceTableDataTable(global::System.Data.DataTable table) {
@@ -310,14 +310,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Prefix = table.Prefix;
                 this.MinimumCapacity = table.MinimumCapacity;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected RoomInvoiceTableDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected RoomInvoiceTableDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                     base(info, context) {
                 this.InitVars();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn RoomIDColumn {
@@ -325,7 +325,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnRoomID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn TypeDescriptionColumn {
@@ -333,7 +333,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnTypeDescription;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn CostColumn {
@@ -341,7 +341,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnCost;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
@@ -350,7 +350,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.Rows.Count;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public RoomInvoiceTableRow this[int index] {
@@ -358,25 +358,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((RoomInvoiceTableRow)(this.Rows[index]));
                 }
             }
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event RoomInvoiceTableRowChangeEventHandler RoomInvoiceTableRowChanging;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event RoomInvoiceTableRowChangeEventHandler RoomInvoiceTableRowChanged;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event RoomInvoiceTableRowChangeEventHandler RoomInvoiceTableRowDeleting;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event RoomInvoiceTableRowChangeEventHandler RoomInvoiceTableRowDeleted;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void AddRoomInvoiceTableRow(RoomInvoiceTableRow row) {
                 this.Rows.Add(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public RoomInvoiceTableRow AddRoomInvoiceTableRow(string RoomID, string TypeDescription, string Cost) {
@@ -389,7 +389,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Rows.Add(rowRoomInvoiceTableRow);
                 return rowRoomInvoiceTableRow;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
@@ -397,13 +397,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 cln.InitVars();
                 return cln;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
                 return new RoomInvoiceTableDataTable();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
@@ -411,7 +411,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnTypeDescription = base.Columns["TypeDescription"];
                 this.columnCost = base.Columns["Cost"];
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private void InitClass() {
@@ -422,25 +422,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnCost = new global::System.Data.DataColumn("Cost", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCost);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public RoomInvoiceTableRow NewRoomInvoiceTableRow() {
                 return ((RoomInvoiceTableRow)(this.NewRow()));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
                 return new RoomInvoiceTableRow(builder);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
                 return typeof(RoomInvoiceTableRow);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
@@ -449,7 +449,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.RoomInvoiceTableRowChanged(this, new RoomInvoiceTableRowChangeEvent(((RoomInvoiceTableRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
@@ -458,7 +458,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.RoomInvoiceTableRowChanging(this, new RoomInvoiceTableRowChangeEvent(((RoomInvoiceTableRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
@@ -467,7 +467,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.RoomInvoiceTableRowDeleted(this, new RoomInvoiceTableRowChangeEvent(((RoomInvoiceTableRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
@@ -476,13 +476,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.RoomInvoiceTableRowDeleting(this, new RoomInvoiceTableRowChangeEvent(((RoomInvoiceTableRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void RemoveRoomInvoiceTableRow(RoomInvoiceTableRow row) {
                 this.Rows.Remove(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -523,7 +523,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                             if ((s1.Length == s2.Length)) {
                                 s1.Position = 0;
                                 s2.Position = 0;
-                                for (; ((s1.Position != s1.Length) 
+                                for (; ((s1.Position != s1.Length)
                                             && (s1.ReadByte() == s2.ReadByte())); ) {
                                     ;
                                 }
@@ -546,21 +546,21 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return type;
             }
         }
-        
+
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class RoomInvoiceTableRow : global::System.Data.DataRow {
-            
+
             private RoomInvoiceTableDataTable tableRoomInvoiceTable;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal RoomInvoiceTableRow(global::System.Data.DataRowBuilder rb) : 
+            internal RoomInvoiceTableRow(global::System.Data.DataRowBuilder rb) :
                     base(rb) {
                 this.tableRoomInvoiceTable = ((RoomInvoiceTableDataTable)(this.Table));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string RoomID {
@@ -576,7 +576,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tableRoomInvoiceTable.RoomIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string TypeDescription {
@@ -593,7 +593,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tableRoomInvoiceTable.TypeDescriptionColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Cost {
@@ -609,61 +609,61 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tableRoomInvoiceTable.CostColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsRoomIDNull() {
                 return this.IsNull(this.tableRoomInvoiceTable.RoomIDColumn);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetRoomIDNull() {
                 this[this.tableRoomInvoiceTable.RoomIDColumn] = global::System.Convert.DBNull;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsTypeDescriptionNull() {
                 return this.IsNull(this.tableRoomInvoiceTable.TypeDescriptionColumn);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetTypeDescriptionNull() {
                 this[this.tableRoomInvoiceTable.TypeDescriptionColumn] = global::System.Convert.DBNull;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsCostNull() {
                 return this.IsNull(this.tableRoomInvoiceTable.CostColumn);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetCostNull() {
                 this[this.tableRoomInvoiceTable.CostColumn] = global::System.Convert.DBNull;
             }
         }
-        
+
         /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public class RoomInvoiceTableRowChangeEvent : global::System.EventArgs {
-            
+
             private RoomInvoiceTableRow eventRow;
-            
+
             private global::System.Data.DataRowAction eventAction;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public RoomInvoiceTableRowChangeEvent(RoomInvoiceTableRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public RoomInvoiceTableRow Row {
@@ -671,7 +671,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.eventRow;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataRowAction Action {

@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 using System.Data.SqlClient;
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Interaction logic for NewReservation.xaml
@@ -26,7 +26,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
                 connection.Open();
 
                 SqlCommand cmdType = new SqlCommand("SELECT * FROM tblRoomType", connection);
-                
+
                 reader = cmdType.ExecuteReader();
 
                 while (reader.Read())
@@ -36,11 +36,11 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
             }
             finally
             {
-                
+
                 if (reader != null)
                 {
                     reader.Close();
-                }                
+                }
                 if (connection != null)
                 {
                     connection.Close();
@@ -397,7 +397,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
                 }
                 txtPrice.Text = money.ToString("#.##" + " " + "руб. за ночь");
                 connection.Close();
-            } 
+            }
         }
 
         private void BtnGuest_Click(object sender, RoutedEventArgs e)

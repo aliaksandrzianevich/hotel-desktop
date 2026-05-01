@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     public partial class frmReservationsReport : Form
     {

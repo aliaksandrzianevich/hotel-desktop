@@ -5,7 +5,7 @@ using System.Windows.Media;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Interaction logic for Transactions.xaml
@@ -35,7 +35,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
             {
                 sql = "SELECT orderID AS 'Transaction ID', Transactiondate AS Date,Cost AS Amount FROM tblRestaurantTransactions WHERE ReservationID = '" + id + "'";
             }
-            
+
             this.id = id;
             SqlCommand tr = new SqlCommand(sql, connection);
             SqlDataAdapter dataAdapter = new SqlDataAdapter(tr); //c.con is the connection string
@@ -99,7 +99,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
                     if (r > 0)
                     {
                         MessageBox.Show("Transaction Deleted Successfully!");
-                       
+
                         this.Close();
                     }
                 }

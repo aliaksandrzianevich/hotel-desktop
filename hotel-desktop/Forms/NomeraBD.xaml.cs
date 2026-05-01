@@ -1,4 +1,4 @@
-﻿using snglrtycrvtureofspce.Hotels.Desktop.Model;
+﻿using Hotels.Desktop.Model;
 using System;
 using System.Data.SqlClient;
 using System.Data;
@@ -7,7 +7,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Diagnostics;
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Логика взаимодействия для NomeraBD.xaml
@@ -22,7 +22,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
         {
             InitializeComponent();
         }
-        
+
         public NomeraBD(string id)
         {
             InitializeComponent();

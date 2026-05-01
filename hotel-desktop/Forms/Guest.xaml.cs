@@ -1,4 +1,4 @@
-﻿using snglrtycrvtureofspce.Hotels.Desktop.Model;
+﻿using Hotels.Desktop.Model;
 using System;
 using System.Linq;
 using System.Windows;
@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Diagnostics;
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Логика взаимодействия для Guest2.xaml
@@ -71,7 +71,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
             try
             {
                 GuestGrid.ItemsSource = AppData.db.tblGuests.Where(item => item.FirstName == Poisk.Text || item.FirstName.Contains(Poisk.Text) || item.GuestAddress.Contains(Poisk.Text) || item.LastName.Contains(Poisk.Text)).ToList();
-                
+
             }
             catch (Exception ex)
             {

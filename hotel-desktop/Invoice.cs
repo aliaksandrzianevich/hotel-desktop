@@ -8,19 +8,19 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace snglrtycrvtureofspce.Hotels.Desktop {
+namespace Hotels.Desktop {
     using System;
     using System.ComponentModel;
     using CrystalDecisions.Shared;
     using CrystalDecisions.ReportSource;
     using CrystalDecisions.CrystalReports.Engine;
-    
-    
+
+
     public class Invoice : ReportClass {
-        
+
         public Invoice() {
         }
-        
+
         public override string ResourceName {
             get {
                 return "Invoice.rpt";
@@ -29,7 +29,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 // Do nothing
             }
         }
-        
+
         public override bool NewGenerator {
             get {
                 return true;
@@ -38,16 +38,16 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 // Do nothing
             }
         }
-        
+
         public override string FullResourceName {
             get {
-                return "snglrtycrvtureofspce.Hotels.Desktop.Invoice.rpt";
+                return "Hotels.Desktop.Invoice.rpt";
             }
             set {
                 // Do nothing
             }
         }
-        
+
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CrystalDecisions.CrystalReports.Engine.Section Section1 {
@@ -55,7 +55,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.ReportDefinition.Sections[0];
             }
         }
-        
+
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CrystalDecisions.CrystalReports.Engine.Section Section2 {
@@ -63,7 +63,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.ReportDefinition.Sections[1];
             }
         }
-        
+
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CrystalDecisions.CrystalReports.Engine.Section Section3 {
@@ -71,7 +71,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.ReportDefinition.Sections[2];
             }
         }
-        
+
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CrystalDecisions.CrystalReports.Engine.Section DetailSection3 {
@@ -79,7 +79,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.ReportDefinition.Sections[3];
             }
         }
-        
+
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CrystalDecisions.CrystalReports.Engine.Section DetailSection2 {
@@ -87,7 +87,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.ReportDefinition.Sections[4];
             }
         }
-        
+
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CrystalDecisions.CrystalReports.Engine.Section Section4 {
@@ -95,7 +95,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.ReportDefinition.Sections[5];
             }
         }
-        
+
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CrystalDecisions.CrystalReports.Engine.Section Section5 {
@@ -104,13 +104,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             }
         }
     }
-    
+
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
     public class CachedInvoice : Component, ICachedReport {
-        
+
         public CachedInvoice() {
         }
-        
+
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public virtual bool IsCacheable {
@@ -118,10 +118,10 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return true;
             }
             set {
-                // 
+                //
             }
         }
-        
+
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public virtual bool ShareDBLogonInfo {
@@ -129,10 +129,10 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return false;
             }
             set {
-                // 
+                //
             }
         }
-        
+
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public virtual System.TimeSpan CacheTimeOut {
@@ -140,16 +140,16 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return CachedReportConstants.DEFAULT_TIMEOUT;
             }
             set {
-                // 
+                //
             }
         }
-        
+
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
             Invoice rpt = new Invoice();
             rpt.Site = this.Site;
             return rpt;
         }
-        
+
         public virtual string GetCustomizedCacheKey(RequestContext request) {
             String key = null;
             // // The following is the code used to generate the default
@@ -157,7 +157,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             // // Feel free to modify this code to suit your needs.
             // // Returning key == null causes the default cache key to
             // // be generated.
-            // 
+            //
             // key = RequestContext.BuildCompleteCacheKey(
             //     request,
             //     null,       // sReportFilename

@@ -1,4 +1,4 @@
-﻿namespace snglrtycrvtureofspce.Hotels.Desktop
+﻿namespace Hotels.Desktop
 {
 
 

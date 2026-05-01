@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "snglrtycrvtureofspce.Hotels.Desktop", "hotel-desktop\snglrtycrvtureofspce.Hotels.Desktop.csproj", "{8EF6B0C4-1B19-428E-B333-6AF35974F83A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotels.Desktop", "hotel-desktop\Hotels.Desktop.csproj", "{8EF6B0C4-1B19-428E-B333-6AF35974F83A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

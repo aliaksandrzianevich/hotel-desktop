@@ -1,4 +1,4 @@
-﻿namespace snglrtycrvtureofspce.Hotels.Desktop
+﻿namespace Hotels.Desktop
 {
     partial class frmReservationsReport
     {
@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
-            this.Reservations1 = new snglrtycrvtureofspce.Hotels.Desktop.Reservations();
+            this.Reservations1 = new Hotels.Desktop.Reservations();
             this.SuspendLayout();
-            // 
+            //
             // crystalReportViewer1
-            // 
+            //
             this.crystalReportViewer1.ActiveViewIndex = 0;
             this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
@@ -43,9 +43,9 @@
             this.crystalReportViewer1.ReportSource = this.Reservations1;
             this.crystalReportViewer1.Size = new System.Drawing.Size(1031, 466);
             this.crystalReportViewer1.TabIndex = 0;
-            // 
+            //
             // frmReservationsReport
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1031, 466);

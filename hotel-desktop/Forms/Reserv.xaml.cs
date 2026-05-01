@@ -4,9 +4,9 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Data.SqlClient;
 using System.Data;
-using snglrtycrvtureofspce.Hotels.Desktop.Model;
+using Hotels.Desktop.Model;
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Логика взаимодействия для Reserv.xaml
@@ -18,7 +18,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
         private readonly string id = "";
         private readonly string type = "";
         private readonly string sql = "";
-        
+
         public Reserv()
         {
             InitializeComponent();
@@ -80,7 +80,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
             string dates = "25/05/2023";
-            
+
             GuestGrid.ItemsSource = AppData.db.tblReservations.Where(item => item.ReservationStartDate.Equals(dates)).ToList();
         }
 

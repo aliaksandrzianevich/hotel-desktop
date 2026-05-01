@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Data.SqlClient;
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Interaction logic for GuestInformation.xaml
@@ -40,7 +40,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
                     lblPhone.Content = rdr["Phone"];
                     lblAddress.Content = rdr["GuestAddress"].ToString();
                     lblEmail.Content = rdr["EmailAddress"].ToString();
-                    lblPostal.Content = rdr["Gender"].ToString();                  
+                    lblPostal.Content = rdr["Gender"].ToString();
                     found = true;
                 }
 
@@ -63,9 +63,9 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
         {
             EditGuest add = new EditGuest(txtGuestID.Text);
             add.ShowDialog();
-            
+
             btnView_Click(sender,e);
-            
+
         }
 
         private void btnViewCopy_Click(object sender, RoutedEventArgs e)

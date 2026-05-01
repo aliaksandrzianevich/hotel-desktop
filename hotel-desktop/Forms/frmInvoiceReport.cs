@@ -4,7 +4,7 @@ using System.Windows.Forms;
 using CrystalDecisions.CrystalReports.Engine;
 using System.Data.SqlClient;
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     public partial class frmInvoiceReport : Form
     {

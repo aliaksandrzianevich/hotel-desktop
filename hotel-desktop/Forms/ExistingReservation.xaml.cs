@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using System.Data.SqlClient;
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Interaction logic for ExistingReservation.xaml
@@ -75,7 +75,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
 
         private void dpiEndDate_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
         {
-           
+
         }
 
         private void btnEdit_Click(object sender, RoutedEventArgs e)

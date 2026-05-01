@@ -3,7 +3,7 @@ using System.Windows.Controls;
 using System.Data.SqlClient;
 
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Interaction logic for RoomServices.xaml
@@ -113,7 +113,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
                             {
                                 MessageBox.Show("Транзакция не прошла!");
                             }
-                       
+
                     }
                     connection.Close();
                 }
@@ -128,7 +128,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
             {
                 connection.Open();
             }
-            
+
             SqlCommand cost = new SqlCommand("select Cost from tblServices where ServiceID = '" + serviceId + "'", connection);
             var result = cost.ExecuteScalar();
             double price = 0;
@@ -155,7 +155,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
 
                             Transactions tr = new Transactions(txtRoomID.Text, "r");
                             tr.ShowDialog();
-                       
+
                             if(transactionid!=0)
                             {
                                 rdbRestaurant_Checked(sender, e);
@@ -166,7 +166,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
                         {
                             Transactions tr = new Transactions(txtRoomID.Text, "s");
                             tr.ShowDialog();
-                        
+
                             if (transactionid != 0)
                             {
                                 rdbService_Checked(sender, e);
@@ -253,7 +253,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
                 }
 
             connection.Close();
-           
+
             return o;
         }
     }

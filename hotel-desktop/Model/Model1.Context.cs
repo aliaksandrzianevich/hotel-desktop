@@ -10,7 +10,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace snglrtycrvtureofspce.Hotels.Desktop.Model
+namespace Hotels.Desktop.Model
 {
 
 using System;

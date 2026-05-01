@@ -3,7 +3,7 @@ using System.Windows.Controls;
 using System.Data.SqlClient;
 
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Interaction logic for RoomServices.xaml

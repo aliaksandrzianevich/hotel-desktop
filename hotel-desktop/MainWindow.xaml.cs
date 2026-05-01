@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Windows;
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

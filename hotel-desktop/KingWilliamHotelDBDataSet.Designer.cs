@@ -10,9 +10,9 @@
 
 #pragma warning disable 1591
 
-namespace snglrtycrvtureofspce.Hotels.Desktop {
-    
-    
+namespace Hotels.Desktop {
+
+
     /// <summary>
     ///Represents a strongly typed in-memory cache of data.
     ///</summary>
@@ -23,47 +23,47 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
     [global::System.Xml.Serialization.XmlRootAttribute("KingWilliamHotelDBDataSet")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
     public partial class KingWilliamHotelDBDataSet : global::System.Data.DataSet {
-        
+
         private tblEmployeeDataTable tabletblEmployee;
-        
+
         private tblEmployeeHistoryDataTable tabletblEmployeeHistory;
-        
+
         private tblGuestsDataTable tabletblGuests;
-        
+
         private tblReservationsDataTable tabletblReservations;
-        
+
         private tblRestaurantTransactionsDataTable tabletblRestaurantTransactions;
-        
+
         private tblRoomsDataTable tabletblRooms;
-        
+
         private tblRoomStatusesDataTable tabletblRoomStatuses;
-        
+
         private tblRoomTypeDataTable tabletblRoomType;
-        
+
         private tblServicesDataTable tabletblServices;
-        
+
         private tblServicesTransactionsDataTable tabletblServicesTransactions;
-        
+
         private global::System.Data.DataRelation relationFK__tblEmploy__Emplo__145C0A3F;
-        
+
         private global::System.Data.DataRelation relationFK__tblReserv__Emplo__22AA2996;
-        
+
         private global::System.Data.DataRelation relationFK__tblReserv__Guest__20C1E124;
-        
+
         private global::System.Data.DataRelation relationFK__tblReserv__RoomI__21B6055D;
-        
+
         private global::System.Data.DataRelation relationFK__tblRestau__Reser__29572725;
-        
+
         private global::System.Data.DataRelation relationFK__tblRooms__RoomTy__1CF15040;
-        
+
         private global::System.Data.DataRelation relationFK__tblRooms__Status__1DE57479;
-        
+
         private global::System.Data.DataRelation relationFK__tblServic__Reser__267ABA7A;
-        
+
         private global::System.Data.DataRelation relationFK__tblServic__Servi__25869641;
-        
+
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public KingWilliamHotelDBDataSet() {
@@ -74,10 +74,10 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             base.Relations.CollectionChanged += schemaChangedHandler;
             this.EndInit();
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected KingWilliamHotelDBDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected KingWilliamHotelDBDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -137,7 +137,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             base.Tables.CollectionChanged += schemaChangedHandler;
             this.Relations.CollectionChanged += schemaChangedHandler;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -147,7 +147,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.tabletblEmployee;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -157,7 +157,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.tabletblEmployeeHistory;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -167,7 +167,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.tabletblGuests;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -177,7 +177,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.tabletblReservations;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -187,7 +187,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.tabletblRestaurantTransactions;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -197,7 +197,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.tabletblRooms;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -207,7 +207,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.tabletblRoomStatuses;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -217,7 +217,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.tabletblRoomType;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -227,7 +227,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.tabletblServices;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -237,7 +237,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return this.tabletblServicesTransactions;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.BrowsableAttribute(true)]
@@ -250,7 +250,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this._schemaSerializationMode = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Hidden)]
@@ -259,7 +259,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return base.Tables;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Hidden)]
@@ -268,7 +268,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return base.Relations;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override void InitializeDerivedDataSet() {
@@ -276,7 +276,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             this.InitClass();
             this.EndInit();
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
@@ -285,19 +285,19 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override bool ShouldSerializeTables() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override bool ShouldSerializeRelations() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override void ReadXmlSerializable(global::System.Xml.XmlReader reader) {
@@ -349,7 +349,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitVars();
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected override global::System.Xml.Schema.XmlSchema GetSchemaSerializable() {
@@ -358,13 +358,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             stream.Position = 0;
             return global::System.Xml.Schema.XmlSchema.Read(new global::System.Xml.XmlTextReader(stream), null);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal void InitVars() {
             this.InitVars(true);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal void InitVars(bool initTable) {
@@ -438,7 +438,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             this.relationFK__tblServic__Reser__267ABA7A = this.Relations["FK__tblServic__Reser__267ABA7A"];
             this.relationFK__tblServic__Servi__25869641 = this.Relations["FK__tblServic__Servi__25869641"];
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitClass() {
@@ -504,67 +504,67 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                         this.tabletblServicesTransactions.ServiceIDColumn}, false);
             this.Relations.Add(this.relationFK__tblServic__Servi__25869641);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private bool ShouldSerializetblEmployee() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private bool ShouldSerializetblEmployeeHistory() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private bool ShouldSerializetblGuests() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private bool ShouldSerializetblReservations() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private bool ShouldSerializetblRestaurantTransactions() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private bool ShouldSerializetblRooms() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private bool ShouldSerializetblRoomStatuses() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private bool ShouldSerializetblRoomType() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private bool ShouldSerializetblServices() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private bool ShouldSerializetblServicesTransactions() {
             return false;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void SchemaChanged(object sender, global::System.ComponentModel.CollectionChangeEventArgs e) {
@@ -572,7 +572,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitVars();
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -597,7 +597,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                         if ((s1.Length == s2.Length)) {
                             s1.Position = 0;
                             s2.Position = 0;
-                            for (; ((s1.Position != s1.Length) 
+                            for (; ((s1.Position != s1.Length)
                                         && (s1.ReadByte() == s2.ReadByte())); ) {
                                 ;
                             }
@@ -619,60 +619,60 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
             xs.Add(dsSchema);
             return type;
         }
-        
+
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void tblEmployeeRowChangeEventHandler(object sender, tblEmployeeRowChangeEvent e);
-        
+
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void tblEmployeeHistoryRowChangeEventHandler(object sender, tblEmployeeHistoryRowChangeEvent e);
-        
+
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void tblGuestsRowChangeEventHandler(object sender, tblGuestsRowChangeEvent e);
-        
+
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void tblReservationsRowChangeEventHandler(object sender, tblReservationsRowChangeEvent e);
-        
+
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void tblRestaurantTransactionsRowChangeEventHandler(object sender, tblRestaurantTransactionsRowChangeEvent e);
-        
+
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void tblRoomsRowChangeEventHandler(object sender, tblRoomsRowChangeEvent e);
-        
+
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void tblRoomStatusesRowChangeEventHandler(object sender, tblRoomStatusesRowChangeEvent e);
-        
+
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void tblRoomTypeRowChangeEventHandler(object sender, tblRoomTypeRowChangeEvent e);
-        
+
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void tblServicesRowChangeEventHandler(object sender, tblServicesRowChangeEvent e);
-        
+
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void tblServicesTransactionsRowChangeEventHandler(object sender, tblServicesTransactionsRowChangeEvent e);
-        
+
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class tblEmployeeDataTable : global::System.Data.TypedTableBase<tblEmployeeRow> {
-            
+
             private global::System.Data.DataColumn columnEmployeeID;
-            
+
             private global::System.Data.DataColumn columnFirstName;
-            
+
             private global::System.Data.DataColumn columnLastName;
-            
+
             private global::System.Data.DataColumn columnEmployeeAddress;
-            
+
             private global::System.Data.DataColumn columnPhone;
-            
+
             private global::System.Data.DataColumn columnEmployeeType;
-            
+
             private global::System.Data.DataColumn columnPosition;
-            
+
             private global::System.Data.DataColumn columnPayRate;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeDataTable() {
@@ -681,7 +681,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitClass();
                 this.EndInit();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal tblEmployeeDataTable(global::System.Data.DataTable table) {
@@ -698,14 +698,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Prefix = table.Prefix;
                 this.MinimumCapacity = table.MinimumCapacity;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected tblEmployeeDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected tblEmployeeDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                     base(info, context) {
                 this.InitVars();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn EmployeeIDColumn {
@@ -713,7 +713,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnEmployeeID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn FirstNameColumn {
@@ -721,7 +721,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnFirstName;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn LastNameColumn {
@@ -729,7 +729,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnLastName;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn EmployeeAddressColumn {
@@ -737,7 +737,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnEmployeeAddress;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn PhoneColumn {
@@ -745,7 +745,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnPhone;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn EmployeeTypeColumn {
@@ -753,7 +753,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnEmployeeType;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn PositionColumn {
@@ -761,7 +761,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnPosition;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn PayRateColumn {
@@ -769,7 +769,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnPayRate;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
@@ -778,7 +778,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.Rows.Count;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeRow this[int index] {
@@ -786,25 +786,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((tblEmployeeRow)(this.Rows[index]));
                 }
             }
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblEmployeeRowChangeEventHandler tblEmployeeRowChanging;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblEmployeeRowChangeEventHandler tblEmployeeRowChanged;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblEmployeeRowChangeEventHandler tblEmployeeRowDeleting;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblEmployeeRowChangeEventHandler tblEmployeeRowDeleted;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void AddtblEmployeeRow(tblEmployeeRow row) {
                 this.Rows.Add(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeRow AddtblEmployeeRow(string EmployeeID, string FirstName, string LastName, string EmployeeAddress, string Phone, string EmployeeType, string Position, decimal PayRate) {
@@ -822,14 +822,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Rows.Add(rowtblEmployeeRow);
                 return rowtblEmployeeRow;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeRow FindByEmployeeID(string EmployeeID) {
                 return ((tblEmployeeRow)(this.Rows.Find(new object[] {
                             EmployeeID})));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
@@ -837,13 +837,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 cln.InitVars();
                 return cln;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
                 return new tblEmployeeDataTable();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
@@ -856,7 +856,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnPosition = base.Columns["Position"];
                 this.columnPayRate = base.Columns["PayRate"];
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private void InitClass() {
@@ -895,25 +895,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnPosition.MaxLength = 15;
                 this.columnPayRate.AllowDBNull = false;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeRow NewtblEmployeeRow() {
                 return ((tblEmployeeRow)(this.NewRow()));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
                 return new tblEmployeeRow(builder);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
                 return typeof(tblEmployeeRow);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
@@ -922,7 +922,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblEmployeeRowChanged(this, new tblEmployeeRowChangeEvent(((tblEmployeeRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
@@ -931,7 +931,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblEmployeeRowChanging(this, new tblEmployeeRowChangeEvent(((tblEmployeeRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
@@ -940,7 +940,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblEmployeeRowDeleted(this, new tblEmployeeRowChangeEvent(((tblEmployeeRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
@@ -949,13 +949,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblEmployeeRowDeleting(this, new tblEmployeeRowChangeEvent(((tblEmployeeRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void RemovetblEmployeeRow(tblEmployeeRow row) {
                 this.Rows.Remove(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -996,7 +996,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                             if ((s1.Length == s2.Length)) {
                                 s1.Position = 0;
                                 s2.Position = 0;
-                                for (; ((s1.Position != s1.Length) 
+                                for (; ((s1.Position != s1.Length)
                                             && (s1.ReadByte() == s2.ReadByte())); ) {
                                     ;
                                 }
@@ -1019,20 +1019,20 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return type;
             }
         }
-        
+
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class tblEmployeeHistoryDataTable : global::System.Data.TypedTableBase<tblEmployeeHistoryRow> {
-            
+
             private global::System.Data.DataColumn columnEmployeeID;
-            
+
             private global::System.Data.DataColumn columnHireDate;
-            
+
             private global::System.Data.DataColumn columnEndDate;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeHistoryDataTable() {
@@ -1041,7 +1041,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitClass();
                 this.EndInit();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal tblEmployeeHistoryDataTable(global::System.Data.DataTable table) {
@@ -1058,14 +1058,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Prefix = table.Prefix;
                 this.MinimumCapacity = table.MinimumCapacity;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected tblEmployeeHistoryDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected tblEmployeeHistoryDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                     base(info, context) {
                 this.InitVars();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn EmployeeIDColumn {
@@ -1073,7 +1073,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnEmployeeID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn HireDateColumn {
@@ -1081,7 +1081,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnHireDate;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn EndDateColumn {
@@ -1089,7 +1089,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnEndDate;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
@@ -1098,7 +1098,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.Rows.Count;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeHistoryRow this[int index] {
@@ -1106,25 +1106,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((tblEmployeeHistoryRow)(this.Rows[index]));
                 }
             }
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblEmployeeHistoryRowChangeEventHandler tblEmployeeHistoryRowChanging;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblEmployeeHistoryRowChangeEventHandler tblEmployeeHistoryRowChanged;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblEmployeeHistoryRowChangeEventHandler tblEmployeeHistoryRowDeleting;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblEmployeeHistoryRowChangeEventHandler tblEmployeeHistoryRowDeleted;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void AddtblEmployeeHistoryRow(tblEmployeeHistoryRow row) {
                 this.Rows.Add(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeHistoryRow AddtblEmployeeHistoryRow(tblEmployeeRow parenttblEmployeeRowByFK__tblEmploy__Emplo__145C0A3F, System.DateTime HireDate, System.DateTime EndDate) {
@@ -1140,7 +1140,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Rows.Add(rowtblEmployeeHistoryRow);
                 return rowtblEmployeeHistoryRow;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeHistoryRow FindByEmployeeIDHireDate(string EmployeeID, System.DateTime HireDate) {
@@ -1148,7 +1148,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                             EmployeeID,
                             HireDate})));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
@@ -1156,13 +1156,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 cln.InitVars();
                 return cln;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
                 return new tblEmployeeHistoryDataTable();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
@@ -1170,7 +1170,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnHireDate = base.Columns["HireDate"];
                 this.columnEndDate = base.Columns["EndDate"];
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private void InitClass() {
@@ -1187,25 +1187,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnEmployeeID.MaxLength = 6;
                 this.columnHireDate.AllowDBNull = false;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeHistoryRow NewtblEmployeeHistoryRow() {
                 return ((tblEmployeeHistoryRow)(this.NewRow()));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
                 return new tblEmployeeHistoryRow(builder);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
                 return typeof(tblEmployeeHistoryRow);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
@@ -1214,7 +1214,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblEmployeeHistoryRowChanged(this, new tblEmployeeHistoryRowChangeEvent(((tblEmployeeHistoryRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
@@ -1223,7 +1223,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblEmployeeHistoryRowChanging(this, new tblEmployeeHistoryRowChangeEvent(((tblEmployeeHistoryRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
@@ -1232,7 +1232,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblEmployeeHistoryRowDeleted(this, new tblEmployeeHistoryRowChangeEvent(((tblEmployeeHistoryRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
@@ -1241,13 +1241,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblEmployeeHistoryRowDeleting(this, new tblEmployeeHistoryRowChangeEvent(((tblEmployeeHistoryRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void RemovetblEmployeeHistoryRow(tblEmployeeHistoryRow row) {
                 this.Rows.Remove(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -1288,7 +1288,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                             if ((s1.Length == s2.Length)) {
                                 s1.Position = 0;
                                 s2.Position = 0;
-                                for (; ((s1.Position != s1.Length) 
+                                for (; ((s1.Position != s1.Length)
                                             && (s1.ReadByte() == s2.ReadByte())); ) {
                                     ;
                                 }
@@ -1311,28 +1311,28 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return type;
             }
         }
-        
+
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class tblGuestsDataTable : global::System.Data.TypedTableBase<tblGuestsRow> {
-            
+
             private global::System.Data.DataColumn columnGuestID;
-            
+
             private global::System.Data.DataColumn columnFirstName;
-            
+
             private global::System.Data.DataColumn columnLastName;
-            
+
             private global::System.Data.DataColumn columnGuestAddress;
-            
+
             private global::System.Data.DataColumn columnGender;
-            
+
             private global::System.Data.DataColumn columnPhone;
-            
+
             private global::System.Data.DataColumn columnEmailAddress;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblGuestsDataTable() {
@@ -1341,7 +1341,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitClass();
                 this.EndInit();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal tblGuestsDataTable(global::System.Data.DataTable table) {
@@ -1358,14 +1358,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Prefix = table.Prefix;
                 this.MinimumCapacity = table.MinimumCapacity;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected tblGuestsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected tblGuestsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                     base(info, context) {
                 this.InitVars();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn GuestIDColumn {
@@ -1373,7 +1373,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnGuestID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn FirstNameColumn {
@@ -1381,7 +1381,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnFirstName;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn LastNameColumn {
@@ -1389,7 +1389,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnLastName;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn GuestAddressColumn {
@@ -1397,7 +1397,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnGuestAddress;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn GenderColumn {
@@ -1405,7 +1405,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnGender;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn PhoneColumn {
@@ -1413,7 +1413,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnPhone;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn EmailAddressColumn {
@@ -1421,7 +1421,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnEmailAddress;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
@@ -1430,7 +1430,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.Rows.Count;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblGuestsRow this[int index] {
@@ -1438,25 +1438,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((tblGuestsRow)(this.Rows[index]));
                 }
             }
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblGuestsRowChangeEventHandler tblGuestsRowChanging;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblGuestsRowChangeEventHandler tblGuestsRowChanged;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblGuestsRowChangeEventHandler tblGuestsRowDeleting;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblGuestsRowChangeEventHandler tblGuestsRowDeleted;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void AddtblGuestsRow(tblGuestsRow row) {
                 this.Rows.Add(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblGuestsRow AddtblGuestsRow(string GuestID, string FirstName, string LastName, string GuestAddress, string Gender, string Phone, string EmailAddress) {
@@ -1473,14 +1473,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Rows.Add(rowtblGuestsRow);
                 return rowtblGuestsRow;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblGuestsRow FindByGuestID(string GuestID) {
                 return ((tblGuestsRow)(this.Rows.Find(new object[] {
                             GuestID})));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
@@ -1488,13 +1488,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 cln.InitVars();
                 return cln;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
                 return new tblGuestsDataTable();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
@@ -1506,7 +1506,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnPhone = base.Columns["Phone"];
                 this.columnEmailAddress = base.Columns["EmailAddress"];
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private void InitClass() {
@@ -1542,25 +1542,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnEmailAddress.AllowDBNull = false;
                 this.columnEmailAddress.MaxLength = 128;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblGuestsRow NewtblGuestsRow() {
                 return ((tblGuestsRow)(this.NewRow()));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
                 return new tblGuestsRow(builder);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
                 return typeof(tblGuestsRow);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
@@ -1569,7 +1569,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblGuestsRowChanged(this, new tblGuestsRowChangeEvent(((tblGuestsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
@@ -1578,7 +1578,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblGuestsRowChanging(this, new tblGuestsRowChangeEvent(((tblGuestsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
@@ -1587,7 +1587,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblGuestsRowDeleted(this, new tblGuestsRowChangeEvent(((tblGuestsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
@@ -1596,13 +1596,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblGuestsRowDeleting(this, new tblGuestsRowChangeEvent(((tblGuestsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void RemovetblGuestsRow(tblGuestsRow row) {
                 this.Rows.Remove(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -1643,7 +1643,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                             if ((s1.Length == s2.Length)) {
                                 s1.Position = 0;
                                 s2.Position = 0;
-                                for (; ((s1.Position != s1.Length) 
+                                for (; ((s1.Position != s1.Length)
                                             && (s1.ReadByte() == s2.ReadByte())); ) {
                                     ;
                                 }
@@ -1666,28 +1666,28 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return type;
             }
         }
-        
+
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class tblReservationsDataTable : global::System.Data.TypedTableBase<tblReservationsRow> {
-            
+
             private global::System.Data.DataColumn columnReservationID;
-            
+
             private global::System.Data.DataColumn columnGuestID;
-            
+
             private global::System.Data.DataColumn columnRoomID;
-            
+
             private global::System.Data.DataColumn columnEmployeeID;
-            
+
             private global::System.Data.DataColumn columnDateMade;
-            
+
             private global::System.Data.DataColumn columnReservationStartDate;
-            
+
             private global::System.Data.DataColumn columnReservationEndDate;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblReservationsDataTable() {
@@ -1696,7 +1696,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitClass();
                 this.EndInit();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal tblReservationsDataTable(global::System.Data.DataTable table) {
@@ -1713,14 +1713,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Prefix = table.Prefix;
                 this.MinimumCapacity = table.MinimumCapacity;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected tblReservationsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected tblReservationsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                     base(info, context) {
                 this.InitVars();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ReservationIDColumn {
@@ -1728,7 +1728,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnReservationID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn GuestIDColumn {
@@ -1736,7 +1736,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnGuestID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn RoomIDColumn {
@@ -1744,7 +1744,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnRoomID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn EmployeeIDColumn {
@@ -1752,7 +1752,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnEmployeeID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn DateMadeColumn {
@@ -1760,7 +1760,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnDateMade;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ReservationStartDateColumn {
@@ -1768,7 +1768,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnReservationStartDate;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ReservationEndDateColumn {
@@ -1776,7 +1776,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnReservationEndDate;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
@@ -1785,7 +1785,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.Rows.Count;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblReservationsRow this[int index] {
@@ -1793,25 +1793,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((tblReservationsRow)(this.Rows[index]));
                 }
             }
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblReservationsRowChangeEventHandler tblReservationsRowChanging;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblReservationsRowChangeEventHandler tblReservationsRowChanged;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblReservationsRowChangeEventHandler tblReservationsRowDeleting;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblReservationsRowChangeEventHandler tblReservationsRowDeleted;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void AddtblReservationsRow(tblReservationsRow row) {
                 this.Rows.Add(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblReservationsRow AddtblReservationsRow(tblGuestsRow parenttblGuestsRowByFK__tblReserv__Guest__20C1E124, tblRoomsRow parenttblRoomsRowByFK__tblReserv__RoomI__21B6055D, tblEmployeeRow parenttblEmployeeRowByFK__tblReserv__Emplo__22AA2996, System.DateTime DateMade, System.DateTime ReservationStartDate, System.DateTime ReservationEndDate) {
@@ -1837,14 +1837,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Rows.Add(rowtblReservationsRow);
                 return rowtblReservationsRow;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblReservationsRow FindByReservationID(int ReservationID) {
                 return ((tblReservationsRow)(this.Rows.Find(new object[] {
                             ReservationID})));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
@@ -1852,13 +1852,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 cln.InitVars();
                 return cln;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
                 return new tblReservationsDataTable();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
@@ -1870,7 +1870,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnReservationStartDate = base.Columns["ReservationStartDate"];
                 this.columnReservationEndDate = base.Columns["ReservationEndDate"];
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private void InitClass() {
@@ -1906,25 +1906,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnReservationStartDate.AllowDBNull = false;
                 this.columnReservationEndDate.AllowDBNull = false;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblReservationsRow NewtblReservationsRow() {
                 return ((tblReservationsRow)(this.NewRow()));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
                 return new tblReservationsRow(builder);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
                 return typeof(tblReservationsRow);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
@@ -1933,7 +1933,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblReservationsRowChanged(this, new tblReservationsRowChangeEvent(((tblReservationsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
@@ -1942,7 +1942,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblReservationsRowChanging(this, new tblReservationsRowChangeEvent(((tblReservationsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
@@ -1951,7 +1951,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblReservationsRowDeleted(this, new tblReservationsRowChangeEvent(((tblReservationsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
@@ -1960,13 +1960,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblReservationsRowDeleting(this, new tblReservationsRowChangeEvent(((tblReservationsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void RemovetblReservationsRow(tblReservationsRow row) {
                 this.Rows.Remove(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -2007,7 +2007,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                             if ((s1.Length == s2.Length)) {
                                 s1.Position = 0;
                                 s2.Position = 0;
-                                for (; ((s1.Position != s1.Length) 
+                                for (; ((s1.Position != s1.Length)
                                             && (s1.ReadByte() == s2.ReadByte())); ) {
                                     ;
                                 }
@@ -2030,22 +2030,22 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return type;
             }
         }
-        
+
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class tblRestaurantTransactionsDataTable : global::System.Data.TypedTableBase<tblRestaurantTransactionsRow> {
-            
+
             private global::System.Data.DataColumn columnOrderID;
-            
+
             private global::System.Data.DataColumn columnReservationID;
-            
+
             private global::System.Data.DataColumn columnCost;
-            
+
             private global::System.Data.DataColumn columnTransactionDate;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRestaurantTransactionsDataTable() {
@@ -2054,7 +2054,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitClass();
                 this.EndInit();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal tblRestaurantTransactionsDataTable(global::System.Data.DataTable table) {
@@ -2071,14 +2071,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Prefix = table.Prefix;
                 this.MinimumCapacity = table.MinimumCapacity;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected tblRestaurantTransactionsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected tblRestaurantTransactionsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                     base(info, context) {
                 this.InitVars();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn OrderIDColumn {
@@ -2086,7 +2086,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnOrderID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ReservationIDColumn {
@@ -2094,7 +2094,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnReservationID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn CostColumn {
@@ -2102,7 +2102,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnCost;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn TransactionDateColumn {
@@ -2110,7 +2110,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnTransactionDate;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
@@ -2119,7 +2119,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.Rows.Count;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRestaurantTransactionsRow this[int index] {
@@ -2127,25 +2127,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((tblRestaurantTransactionsRow)(this.Rows[index]));
                 }
             }
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRestaurantTransactionsRowChangeEventHandler tblRestaurantTransactionsRowChanging;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRestaurantTransactionsRowChangeEventHandler tblRestaurantTransactionsRowChanged;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRestaurantTransactionsRowChangeEventHandler tblRestaurantTransactionsRowDeleting;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRestaurantTransactionsRowChangeEventHandler tblRestaurantTransactionsRowDeleted;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void AddtblRestaurantTransactionsRow(tblRestaurantTransactionsRow row) {
                 this.Rows.Add(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRestaurantTransactionsRow AddtblRestaurantTransactionsRow(tblReservationsRow parenttblReservationsRowByFK__tblRestau__Reser__29572725, decimal Cost, System.DateTime TransactionDate) {
@@ -2162,14 +2162,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Rows.Add(rowtblRestaurantTransactionsRow);
                 return rowtblRestaurantTransactionsRow;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRestaurantTransactionsRow FindByOrderID(int OrderID) {
                 return ((tblRestaurantTransactionsRow)(this.Rows.Find(new object[] {
                             OrderID})));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
@@ -2177,13 +2177,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 cln.InitVars();
                 return cln;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
                 return new tblRestaurantTransactionsDataTable();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
@@ -2192,7 +2192,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnCost = base.Columns["Cost"];
                 this.columnTransactionDate = base.Columns["TransactionDate"];
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private void InitClass() {
@@ -2216,25 +2216,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnCost.AllowDBNull = false;
                 this.columnTransactionDate.AllowDBNull = false;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRestaurantTransactionsRow NewtblRestaurantTransactionsRow() {
                 return ((tblRestaurantTransactionsRow)(this.NewRow()));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
                 return new tblRestaurantTransactionsRow(builder);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
                 return typeof(tblRestaurantTransactionsRow);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
@@ -2243,7 +2243,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRestaurantTransactionsRowChanged(this, new tblRestaurantTransactionsRowChangeEvent(((tblRestaurantTransactionsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
@@ -2252,7 +2252,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRestaurantTransactionsRowChanging(this, new tblRestaurantTransactionsRowChangeEvent(((tblRestaurantTransactionsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
@@ -2261,7 +2261,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRestaurantTransactionsRowDeleted(this, new tblRestaurantTransactionsRowChangeEvent(((tblRestaurantTransactionsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
@@ -2270,13 +2270,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRestaurantTransactionsRowDeleting(this, new tblRestaurantTransactionsRowChangeEvent(((tblRestaurantTransactionsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void RemovetblRestaurantTransactionsRow(tblRestaurantTransactionsRow row) {
                 this.Rows.Remove(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -2317,7 +2317,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                             if ((s1.Length == s2.Length)) {
                                 s1.Position = 0;
                                 s2.Position = 0;
-                                for (; ((s1.Position != s1.Length) 
+                                for (; ((s1.Position != s1.Length)
                                             && (s1.ReadByte() == s2.ReadByte())); ) {
                                     ;
                                 }
@@ -2340,24 +2340,24 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return type;
             }
         }
-        
+
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class tblRoomsDataTable : global::System.Data.TypedTableBase<tblRoomsRow> {
-            
+
             private global::System.Data.DataColumn columnRoomID;
-            
+
             private global::System.Data.DataColumn columnRoomTypeID;
-            
+
             private global::System.Data.DataColumn columnStatusID;
-            
+
             private global::System.Data.DataColumn columnCost;
-            
+
             private global::System.Data.DataColumn columnRoomFloor;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomsDataTable() {
@@ -2366,7 +2366,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitClass();
                 this.EndInit();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal tblRoomsDataTable(global::System.Data.DataTable table) {
@@ -2383,14 +2383,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Prefix = table.Prefix;
                 this.MinimumCapacity = table.MinimumCapacity;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected tblRoomsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected tblRoomsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                     base(info, context) {
                 this.InitVars();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn RoomIDColumn {
@@ -2398,7 +2398,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnRoomID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn RoomTypeIDColumn {
@@ -2406,7 +2406,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnRoomTypeID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn StatusIDColumn {
@@ -2414,7 +2414,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnStatusID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn CostColumn {
@@ -2422,7 +2422,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnCost;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn RoomFloorColumn {
@@ -2430,7 +2430,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnRoomFloor;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
@@ -2439,7 +2439,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.Rows.Count;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomsRow this[int index] {
@@ -2447,25 +2447,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((tblRoomsRow)(this.Rows[index]));
                 }
             }
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRoomsRowChangeEventHandler tblRoomsRowChanging;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRoomsRowChangeEventHandler tblRoomsRowChanged;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRoomsRowChangeEventHandler tblRoomsRowDeleting;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRoomsRowChangeEventHandler tblRoomsRowDeleted;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void AddtblRoomsRow(tblRoomsRow row) {
                 this.Rows.Add(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomsRow AddtblRoomsRow(string RoomID, tblRoomTypeRow parenttblRoomTypeRowByFK__tblRooms__RoomTy__1CF15040, tblRoomStatusesRow parenttblRoomStatusesRowByFK__tblRooms__Status__1DE57479, decimal Cost, int RoomFloor) {
@@ -2486,14 +2486,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Rows.Add(rowtblRoomsRow);
                 return rowtblRoomsRow;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomsRow FindByRoomID(string RoomID) {
                 return ((tblRoomsRow)(this.Rows.Find(new object[] {
                             RoomID})));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
@@ -2501,13 +2501,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 cln.InitVars();
                 return cln;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
                 return new tblRoomsDataTable();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
@@ -2517,7 +2517,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnCost = base.Columns["Cost"];
                 this.columnRoomFloor = base.Columns["RoomFloor"];
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private void InitClass() {
@@ -2542,25 +2542,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnCost.AllowDBNull = false;
                 this.columnRoomFloor.AllowDBNull = false;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomsRow NewtblRoomsRow() {
                 return ((tblRoomsRow)(this.NewRow()));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
                 return new tblRoomsRow(builder);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
                 return typeof(tblRoomsRow);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
@@ -2569,7 +2569,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRoomsRowChanged(this, new tblRoomsRowChangeEvent(((tblRoomsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
@@ -2578,7 +2578,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRoomsRowChanging(this, new tblRoomsRowChangeEvent(((tblRoomsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
@@ -2587,7 +2587,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRoomsRowDeleted(this, new tblRoomsRowChangeEvent(((tblRoomsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
@@ -2596,13 +2596,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRoomsRowDeleting(this, new tblRoomsRowChangeEvent(((tblRoomsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void RemovetblRoomsRow(tblRoomsRow row) {
                 this.Rows.Remove(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -2643,7 +2643,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                             if ((s1.Length == s2.Length)) {
                                 s1.Position = 0;
                                 s2.Position = 0;
-                                for (; ((s1.Position != s1.Length) 
+                                for (; ((s1.Position != s1.Length)
                                             && (s1.ReadByte() == s2.ReadByte())); ) {
                                     ;
                                 }
@@ -2666,18 +2666,18 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return type;
             }
         }
-        
+
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class tblRoomStatusesDataTable : global::System.Data.TypedTableBase<tblRoomStatusesRow> {
-            
+
             private global::System.Data.DataColumn columnStatusID;
-            
+
             private global::System.Data.DataColumn columnStatusDescription;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomStatusesDataTable() {
@@ -2686,7 +2686,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitClass();
                 this.EndInit();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal tblRoomStatusesDataTable(global::System.Data.DataTable table) {
@@ -2703,14 +2703,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Prefix = table.Prefix;
                 this.MinimumCapacity = table.MinimumCapacity;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected tblRoomStatusesDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected tblRoomStatusesDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                     base(info, context) {
                 this.InitVars();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn StatusIDColumn {
@@ -2718,7 +2718,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnStatusID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn StatusDescriptionColumn {
@@ -2726,7 +2726,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnStatusDescription;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
@@ -2735,7 +2735,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.Rows.Count;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomStatusesRow this[int index] {
@@ -2743,25 +2743,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((tblRoomStatusesRow)(this.Rows[index]));
                 }
             }
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRoomStatusesRowChangeEventHandler tblRoomStatusesRowChanging;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRoomStatusesRowChangeEventHandler tblRoomStatusesRowChanged;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRoomStatusesRowChangeEventHandler tblRoomStatusesRowDeleting;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRoomStatusesRowChangeEventHandler tblRoomStatusesRowDeleted;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void AddtblRoomStatusesRow(tblRoomStatusesRow row) {
                 this.Rows.Add(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomStatusesRow AddtblRoomStatusesRow(string StatusDescription) {
@@ -2773,14 +2773,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Rows.Add(rowtblRoomStatusesRow);
                 return rowtblRoomStatusesRow;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomStatusesRow FindByStatusID(int StatusID) {
                 return ((tblRoomStatusesRow)(this.Rows.Find(new object[] {
                             StatusID})));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
@@ -2788,20 +2788,20 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 cln.InitVars();
                 return cln;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
                 return new tblRoomStatusesDataTable();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
                 this.columnStatusID = base.Columns["StatusID"];
                 this.columnStatusDescription = base.Columns["StatusDescription"];
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private void InitClass() {
@@ -2820,25 +2820,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnStatusDescription.AllowDBNull = false;
                 this.columnStatusDescription.MaxLength = 50;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomStatusesRow NewtblRoomStatusesRow() {
                 return ((tblRoomStatusesRow)(this.NewRow()));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
                 return new tblRoomStatusesRow(builder);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
                 return typeof(tblRoomStatusesRow);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
@@ -2847,7 +2847,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRoomStatusesRowChanged(this, new tblRoomStatusesRowChangeEvent(((tblRoomStatusesRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
@@ -2856,7 +2856,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRoomStatusesRowChanging(this, new tblRoomStatusesRowChangeEvent(((tblRoomStatusesRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
@@ -2865,7 +2865,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRoomStatusesRowDeleted(this, new tblRoomStatusesRowChangeEvent(((tblRoomStatusesRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
@@ -2874,13 +2874,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRoomStatusesRowDeleting(this, new tblRoomStatusesRowChangeEvent(((tblRoomStatusesRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void RemovetblRoomStatusesRow(tblRoomStatusesRow row) {
                 this.Rows.Remove(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -2921,7 +2921,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                             if ((s1.Length == s2.Length)) {
                                 s1.Position = 0;
                                 s2.Position = 0;
-                                for (; ((s1.Position != s1.Length) 
+                                for (; ((s1.Position != s1.Length)
                                             && (s1.ReadByte() == s2.ReadByte())); ) {
                                     ;
                                 }
@@ -2944,18 +2944,18 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return type;
             }
         }
-        
+
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class tblRoomTypeDataTable : global::System.Data.TypedTableBase<tblRoomTypeRow> {
-            
+
             private global::System.Data.DataColumn columnRoomTypeID;
-            
+
             private global::System.Data.DataColumn columnTypeDescription;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomTypeDataTable() {
@@ -2964,7 +2964,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitClass();
                 this.EndInit();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal tblRoomTypeDataTable(global::System.Data.DataTable table) {
@@ -2981,14 +2981,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Prefix = table.Prefix;
                 this.MinimumCapacity = table.MinimumCapacity;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected tblRoomTypeDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected tblRoomTypeDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                     base(info, context) {
                 this.InitVars();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn RoomTypeIDColumn {
@@ -2996,7 +2996,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnRoomTypeID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn TypeDescriptionColumn {
@@ -3004,7 +3004,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnTypeDescription;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
@@ -3013,7 +3013,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.Rows.Count;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomTypeRow this[int index] {
@@ -3021,25 +3021,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((tblRoomTypeRow)(this.Rows[index]));
                 }
             }
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRoomTypeRowChangeEventHandler tblRoomTypeRowChanging;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRoomTypeRowChangeEventHandler tblRoomTypeRowChanged;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRoomTypeRowChangeEventHandler tblRoomTypeRowDeleting;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblRoomTypeRowChangeEventHandler tblRoomTypeRowDeleted;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void AddtblRoomTypeRow(tblRoomTypeRow row) {
                 this.Rows.Add(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomTypeRow AddtblRoomTypeRow(string RoomTypeID, string TypeDescription) {
@@ -3051,14 +3051,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Rows.Add(rowtblRoomTypeRow);
                 return rowtblRoomTypeRow;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomTypeRow FindByRoomTypeID(string RoomTypeID) {
                 return ((tblRoomTypeRow)(this.Rows.Find(new object[] {
                             RoomTypeID})));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
@@ -3066,20 +3066,20 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 cln.InitVars();
                 return cln;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
                 return new tblRoomTypeDataTable();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
                 this.columnRoomTypeID = base.Columns["RoomTypeID"];
                 this.columnTypeDescription = base.Columns["TypeDescription"];
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private void InitClass() {
@@ -3095,25 +3095,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnTypeDescription.AllowDBNull = false;
                 this.columnTypeDescription.MaxLength = 128;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomTypeRow NewtblRoomTypeRow() {
                 return ((tblRoomTypeRow)(this.NewRow()));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
                 return new tblRoomTypeRow(builder);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
                 return typeof(tblRoomTypeRow);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
@@ -3122,7 +3122,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRoomTypeRowChanged(this, new tblRoomTypeRowChangeEvent(((tblRoomTypeRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
@@ -3131,7 +3131,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRoomTypeRowChanging(this, new tblRoomTypeRowChangeEvent(((tblRoomTypeRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
@@ -3140,7 +3140,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRoomTypeRowDeleted(this, new tblRoomTypeRowChangeEvent(((tblRoomTypeRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
@@ -3149,13 +3149,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblRoomTypeRowDeleting(this, new tblRoomTypeRowChangeEvent(((tblRoomTypeRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void RemovetblRoomTypeRow(tblRoomTypeRow row) {
                 this.Rows.Remove(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -3196,7 +3196,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                             if ((s1.Length == s2.Length)) {
                                 s1.Position = 0;
                                 s2.Position = 0;
-                                for (; ((s1.Position != s1.Length) 
+                                for (; ((s1.Position != s1.Length)
                                             && (s1.ReadByte() == s2.ReadByte())); ) {
                                     ;
                                 }
@@ -3219,20 +3219,20 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return type;
             }
         }
-        
+
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class tblServicesDataTable : global::System.Data.TypedTableBase<tblServicesRow> {
-            
+
             private global::System.Data.DataColumn columnServiceId;
-            
+
             private global::System.Data.DataColumn columnServiceDescription;
-            
+
             private global::System.Data.DataColumn columnCost;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesDataTable() {
@@ -3241,7 +3241,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitClass();
                 this.EndInit();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal tblServicesDataTable(global::System.Data.DataTable table) {
@@ -3258,14 +3258,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Prefix = table.Prefix;
                 this.MinimumCapacity = table.MinimumCapacity;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected tblServicesDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected tblServicesDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                     base(info, context) {
                 this.InitVars();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ServiceIdColumn {
@@ -3273,7 +3273,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnServiceId;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ServiceDescriptionColumn {
@@ -3281,7 +3281,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnServiceDescription;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn CostColumn {
@@ -3289,7 +3289,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnCost;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
@@ -3298,7 +3298,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.Rows.Count;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesRow this[int index] {
@@ -3306,25 +3306,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((tblServicesRow)(this.Rows[index]));
                 }
             }
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblServicesRowChangeEventHandler tblServicesRowChanging;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblServicesRowChangeEventHandler tblServicesRowChanged;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblServicesRowChangeEventHandler tblServicesRowDeleting;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblServicesRowChangeEventHandler tblServicesRowDeleted;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void AddtblServicesRow(tblServicesRow row) {
                 this.Rows.Add(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesRow AddtblServicesRow(string ServiceDescription, decimal Cost) {
@@ -3337,14 +3337,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Rows.Add(rowtblServicesRow);
                 return rowtblServicesRow;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesRow FindByServiceId(int ServiceId) {
                 return ((tblServicesRow)(this.Rows.Find(new object[] {
                             ServiceId})));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
@@ -3352,13 +3352,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 cln.InitVars();
                 return cln;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
                 return new tblServicesDataTable();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
@@ -3366,7 +3366,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnServiceDescription = base.Columns["ServiceDescription"];
                 this.columnCost = base.Columns["Cost"];
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private void InitClass() {
@@ -3388,25 +3388,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnServiceDescription.MaxLength = 128;
                 this.columnCost.AllowDBNull = false;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesRow NewtblServicesRow() {
                 return ((tblServicesRow)(this.NewRow()));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
                 return new tblServicesRow(builder);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
                 return typeof(tblServicesRow);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
@@ -3415,7 +3415,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblServicesRowChanged(this, new tblServicesRowChangeEvent(((tblServicesRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
@@ -3424,7 +3424,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblServicesRowChanging(this, new tblServicesRowChangeEvent(((tblServicesRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
@@ -3433,7 +3433,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblServicesRowDeleted(this, new tblServicesRowChangeEvent(((tblServicesRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
@@ -3442,13 +3442,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblServicesRowDeleting(this, new tblServicesRowChangeEvent(((tblServicesRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void RemovetblServicesRow(tblServicesRow row) {
                 this.Rows.Remove(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -3489,7 +3489,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                             if ((s1.Length == s2.Length)) {
                                 s1.Position = 0;
                                 s2.Position = 0;
-                                for (; ((s1.Position != s1.Length) 
+                                for (; ((s1.Position != s1.Length)
                                             && (s1.ReadByte() == s2.ReadByte())); ) {
                                     ;
                                 }
@@ -3512,22 +3512,22 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return type;
             }
         }
-        
+
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class tblServicesTransactionsDataTable : global::System.Data.TypedTableBase<tblServicesTransactionsRow> {
-            
+
             private global::System.Data.DataColumn columnServiceTransactionID;
-            
+
             private global::System.Data.DataColumn columnReservationID;
-            
+
             private global::System.Data.DataColumn columnServiceID;
-            
+
             private global::System.Data.DataColumn columnServiceDate;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesTransactionsDataTable() {
@@ -3536,7 +3536,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.InitClass();
                 this.EndInit();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal tblServicesTransactionsDataTable(global::System.Data.DataTable table) {
@@ -3553,14 +3553,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Prefix = table.Prefix;
                 this.MinimumCapacity = table.MinimumCapacity;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected tblServicesTransactionsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected tblServicesTransactionsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) :
                     base(info, context) {
                 this.InitVars();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ServiceTransactionIDColumn {
@@ -3568,7 +3568,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnServiceTransactionID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ReservationIDColumn {
@@ -3576,7 +3576,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnReservationID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ServiceIDColumn {
@@ -3584,7 +3584,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnServiceID;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn ServiceDateColumn {
@@ -3592,7 +3592,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.columnServiceDate;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
@@ -3601,7 +3601,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.Rows.Count;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesTransactionsRow this[int index] {
@@ -3609,25 +3609,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((tblServicesTransactionsRow)(this.Rows[index]));
                 }
             }
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblServicesTransactionsRowChangeEventHandler tblServicesTransactionsRowChanging;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblServicesTransactionsRowChangeEventHandler tblServicesTransactionsRowChanged;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblServicesTransactionsRowChangeEventHandler tblServicesTransactionsRowDeleting;
-            
+
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public event tblServicesTransactionsRowChangeEventHandler tblServicesTransactionsRowDeleted;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void AddtblServicesTransactionsRow(tblServicesTransactionsRow row) {
                 this.Rows.Add(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesTransactionsRow AddtblServicesTransactionsRow(tblReservationsRow parenttblReservationsRowByFK__tblServic__Reser__267ABA7A, tblServicesRow parenttblServicesRowByFK__tblServic__Servi__25869641, System.DateTime ServiceDate) {
@@ -3647,14 +3647,14 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.Rows.Add(rowtblServicesTransactionsRow);
                 return rowtblServicesTransactionsRow;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesTransactionsRow FindByServiceTransactionID(int ServiceTransactionID) {
                 return ((tblServicesTransactionsRow)(this.Rows.Find(new object[] {
                             ServiceTransactionID})));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
@@ -3662,13 +3662,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 cln.InitVars();
                 return cln;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
                 return new tblServicesTransactionsDataTable();
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
@@ -3677,7 +3677,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnServiceID = base.Columns["ServiceID"];
                 this.columnServiceDate = base.Columns["ServiceDate"];
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private void InitClass() {
@@ -3701,25 +3701,25 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 this.columnServiceID.AllowDBNull = false;
                 this.columnServiceDate.AllowDBNull = false;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesTransactionsRow NewtblServicesTransactionsRow() {
                 return ((tblServicesTransactionsRow)(this.NewRow()));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
                 return new tblServicesTransactionsRow(builder);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
                 return typeof(tblServicesTransactionsRow);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
@@ -3728,7 +3728,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblServicesTransactionsRowChanged(this, new tblServicesTransactionsRowChangeEvent(((tblServicesTransactionsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
@@ -3737,7 +3737,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblServicesTransactionsRowChanging(this, new tblServicesTransactionsRowChangeEvent(((tblServicesTransactionsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
@@ -3746,7 +3746,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblServicesTransactionsRowDeleted(this, new tblServicesTransactionsRowChangeEvent(((tblServicesTransactionsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
@@ -3755,13 +3755,13 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.tblServicesTransactionsRowDeleting(this, new tblServicesTransactionsRowChangeEvent(((tblServicesTransactionsRow)(e.Row)), e.Action));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void RemovetblServicesTransactionsRow(tblServicesTransactionsRow row) {
                 this.Rows.Remove(row);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
@@ -3802,7 +3802,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                             if ((s1.Length == s2.Length)) {
                                 s1.Position = 0;
                                 s2.Position = 0;
-                                for (; ((s1.Position != s1.Length) 
+                                for (; ((s1.Position != s1.Length)
                                             && (s1.ReadByte() == s2.ReadByte())); ) {
                                     ;
                                 }
@@ -3825,21 +3825,21 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 return type;
             }
         }
-        
+
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class tblEmployeeRow : global::System.Data.DataRow {
-            
+
             private tblEmployeeDataTable tabletblEmployee;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal tblEmployeeRow(global::System.Data.DataRowBuilder rb) : 
+            internal tblEmployeeRow(global::System.Data.DataRowBuilder rb) :
                     base(rb) {
                 this.tabletblEmployee = ((tblEmployeeDataTable)(this.Table));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string EmployeeID {
@@ -3850,7 +3850,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblEmployee.EmployeeIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string FirstName {
@@ -3861,7 +3861,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblEmployee.FirstNameColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string LastName {
@@ -3872,7 +3872,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblEmployee.LastNameColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string EmployeeAddress {
@@ -3883,7 +3883,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblEmployee.EmployeeAddressColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Phone {
@@ -3894,7 +3894,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblEmployee.PhoneColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string EmployeeType {
@@ -3905,7 +3905,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblEmployee.EmployeeTypeColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Position {
@@ -3916,7 +3916,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblEmployee.PositionColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public decimal PayRate {
@@ -3927,7 +3927,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblEmployee.PayRateColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeHistoryRow[] GettblEmployeeHistoryRows() {
@@ -3938,7 +3938,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((tblEmployeeHistoryRow[])(base.GetChildRows(this.Table.ChildRelations["FK__tblEmploy__Emplo__145C0A3F"])));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblReservationsRow[] GettblReservationsRows() {
@@ -3950,21 +3950,21 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class tblEmployeeHistoryRow : global::System.Data.DataRow {
-            
+
             private tblEmployeeHistoryDataTable tabletblEmployeeHistory;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal tblEmployeeHistoryRow(global::System.Data.DataRowBuilder rb) : 
+            internal tblEmployeeHistoryRow(global::System.Data.DataRowBuilder rb) :
                     base(rb) {
                 this.tabletblEmployeeHistory = ((tblEmployeeHistoryDataTable)(this.Table));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string EmployeeID {
@@ -3975,7 +3975,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblEmployeeHistory.EmployeeIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public System.DateTime HireDate {
@@ -3986,7 +3986,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblEmployeeHistory.HireDateColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public System.DateTime EndDate {
@@ -4002,7 +4002,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblEmployeeHistory.EndDateColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeRow tblEmployeeRow {
@@ -4013,34 +4013,34 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.SetParentRow(value, this.Table.ParentRelations["FK__tblEmploy__Emplo__145C0A3F"]);
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsEndDateNull() {
                 return this.IsNull(this.tabletblEmployeeHistory.EndDateColumn);
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetEndDateNull() {
                 this[this.tabletblEmployeeHistory.EndDateColumn] = global::System.Convert.DBNull;
             }
         }
-        
+
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class tblGuestsRow : global::System.Data.DataRow {
-            
+
             private tblGuestsDataTable tabletblGuests;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal tblGuestsRow(global::System.Data.DataRowBuilder rb) : 
+            internal tblGuestsRow(global::System.Data.DataRowBuilder rb) :
                     base(rb) {
                 this.tabletblGuests = ((tblGuestsDataTable)(this.Table));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string GuestID {
@@ -4051,7 +4051,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblGuests.GuestIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string FirstName {
@@ -4062,7 +4062,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblGuests.FirstNameColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string LastName {
@@ -4073,7 +4073,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblGuests.LastNameColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string GuestAddress {
@@ -4084,7 +4084,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblGuests.GuestAddressColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Gender {
@@ -4095,7 +4095,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblGuests.GenderColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Phone {
@@ -4106,7 +4106,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblGuests.PhoneColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string EmailAddress {
@@ -4117,7 +4117,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblGuests.EmailAddressColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblReservationsRow[] GettblReservationsRows() {
@@ -4129,21 +4129,21 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class tblReservationsRow : global::System.Data.DataRow {
-            
+
             private tblReservationsDataTable tabletblReservations;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal tblReservationsRow(global::System.Data.DataRowBuilder rb) : 
+            internal tblReservationsRow(global::System.Data.DataRowBuilder rb) :
                     base(rb) {
                 this.tabletblReservations = ((tblReservationsDataTable)(this.Table));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int ReservationID {
@@ -4154,7 +4154,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblReservations.ReservationIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string GuestID {
@@ -4165,7 +4165,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblReservations.GuestIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string RoomID {
@@ -4176,7 +4176,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblReservations.RoomIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string EmployeeID {
@@ -4187,7 +4187,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblReservations.EmployeeIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public System.DateTime DateMade {
@@ -4198,7 +4198,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblReservations.DateMadeColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public System.DateTime ReservationStartDate {
@@ -4209,7 +4209,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblReservations.ReservationStartDateColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public System.DateTime ReservationEndDate {
@@ -4220,7 +4220,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblReservations.ReservationEndDateColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeRow tblEmployeeRow {
@@ -4231,7 +4231,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.SetParentRow(value, this.Table.ParentRelations["FK__tblReserv__Emplo__22AA2996"]);
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblGuestsRow tblGuestsRow {
@@ -4242,7 +4242,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.SetParentRow(value, this.Table.ParentRelations["FK__tblReserv__Guest__20C1E124"]);
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomsRow tblRoomsRow {
@@ -4253,7 +4253,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.SetParentRow(value, this.Table.ParentRelations["FK__tblReserv__RoomI__21B6055D"]);
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRestaurantTransactionsRow[] GettblRestaurantTransactionsRows() {
@@ -4264,7 +4264,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return ((tblRestaurantTransactionsRow[])(base.GetChildRows(this.Table.ChildRelations["FK__tblRestau__Reser__29572725"])));
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesTransactionsRow[] GettblServicesTransactionsRows() {
@@ -4276,21 +4276,21 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class tblRestaurantTransactionsRow : global::System.Data.DataRow {
-            
+
             private tblRestaurantTransactionsDataTable tabletblRestaurantTransactions;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal tblRestaurantTransactionsRow(global::System.Data.DataRowBuilder rb) : 
+            internal tblRestaurantTransactionsRow(global::System.Data.DataRowBuilder rb) :
                     base(rb) {
                 this.tabletblRestaurantTransactions = ((tblRestaurantTransactionsDataTable)(this.Table));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int OrderID {
@@ -4301,7 +4301,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblRestaurantTransactions.OrderIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int ReservationID {
@@ -4312,7 +4312,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblRestaurantTransactions.ReservationIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public decimal Cost {
@@ -4323,7 +4323,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblRestaurantTransactions.CostColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public System.DateTime TransactionDate {
@@ -4334,7 +4334,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblRestaurantTransactions.TransactionDateColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblReservationsRow tblReservationsRow {
@@ -4346,21 +4346,21 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class tblRoomsRow : global::System.Data.DataRow {
-            
+
             private tblRoomsDataTable tabletblRooms;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal tblRoomsRow(global::System.Data.DataRowBuilder rb) : 
+            internal tblRoomsRow(global::System.Data.DataRowBuilder rb) :
                     base(rb) {
                 this.tabletblRooms = ((tblRoomsDataTable)(this.Table));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string RoomID {
@@ -4371,7 +4371,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblRooms.RoomIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string RoomTypeID {
@@ -4382,7 +4382,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblRooms.RoomTypeIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int StatusID {
@@ -4393,7 +4393,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblRooms.StatusIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public decimal Cost {
@@ -4404,7 +4404,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblRooms.CostColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int RoomFloor {
@@ -4415,7 +4415,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblRooms.RoomFloorColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomTypeRow tblRoomTypeRow {
@@ -4426,7 +4426,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.SetParentRow(value, this.Table.ParentRelations["FK__tblRooms__RoomTy__1CF15040"]);
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomStatusesRow tblRoomStatusesRow {
@@ -4437,7 +4437,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.SetParentRow(value, this.Table.ParentRelations["FK__tblRooms__Status__1DE57479"]);
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblReservationsRow[] GettblReservationsRows() {
@@ -4449,21 +4449,21 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class tblRoomStatusesRow : global::System.Data.DataRow {
-            
+
             private tblRoomStatusesDataTable tabletblRoomStatuses;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal tblRoomStatusesRow(global::System.Data.DataRowBuilder rb) : 
+            internal tblRoomStatusesRow(global::System.Data.DataRowBuilder rb) :
                     base(rb) {
                 this.tabletblRoomStatuses = ((tblRoomStatusesDataTable)(this.Table));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int StatusID {
@@ -4474,7 +4474,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblRoomStatuses.StatusIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string StatusDescription {
@@ -4485,7 +4485,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblRoomStatuses.StatusDescriptionColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomsRow[] GettblRoomsRows() {
@@ -4497,21 +4497,21 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class tblRoomTypeRow : global::System.Data.DataRow {
-            
+
             private tblRoomTypeDataTable tabletblRoomType;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal tblRoomTypeRow(global::System.Data.DataRowBuilder rb) : 
+            internal tblRoomTypeRow(global::System.Data.DataRowBuilder rb) :
                     base(rb) {
                 this.tabletblRoomType = ((tblRoomTypeDataTable)(this.Table));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string RoomTypeID {
@@ -4522,7 +4522,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblRoomType.RoomTypeIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string TypeDescription {
@@ -4533,7 +4533,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblRoomType.TypeDescriptionColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomsRow[] GettblRoomsRows() {
@@ -4545,21 +4545,21 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class tblServicesRow : global::System.Data.DataRow {
-            
+
             private tblServicesDataTable tabletblServices;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal tblServicesRow(global::System.Data.DataRowBuilder rb) : 
+            internal tblServicesRow(global::System.Data.DataRowBuilder rb) :
                     base(rb) {
                 this.tabletblServices = ((tblServicesDataTable)(this.Table));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int ServiceId {
@@ -4570,7 +4570,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblServices.ServiceIdColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string ServiceDescription {
@@ -4581,7 +4581,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblServices.ServiceDescriptionColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public decimal Cost {
@@ -4592,7 +4592,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblServices.CostColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesTransactionsRow[] GettblServicesTransactionsRows() {
@@ -4604,21 +4604,21 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class tblServicesTransactionsRow : global::System.Data.DataRow {
-            
+
             private tblServicesTransactionsDataTable tabletblServicesTransactions;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal tblServicesTransactionsRow(global::System.Data.DataRowBuilder rb) : 
+            internal tblServicesTransactionsRow(global::System.Data.DataRowBuilder rb) :
                     base(rb) {
                 this.tabletblServicesTransactions = ((tblServicesTransactionsDataTable)(this.Table));
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int ServiceTransactionID {
@@ -4629,7 +4629,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblServicesTransactions.ServiceTransactionIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int ReservationID {
@@ -4640,7 +4640,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblServicesTransactions.ReservationIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int ServiceID {
@@ -4651,7 +4651,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblServicesTransactions.ServiceIDColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public System.DateTime ServiceDate {
@@ -4662,7 +4662,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this[this.tabletblServicesTransactions.ServiceDateColumn] = value;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblReservationsRow tblReservationsRow {
@@ -4673,7 +4673,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     this.SetParentRow(value, this.Table.ParentRelations["FK__tblServic__Reser__267ABA7A"]);
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesRow tblServicesRow {
@@ -4685,24 +4685,24 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public class tblEmployeeRowChangeEvent : global::System.EventArgs {
-            
+
             private tblEmployeeRow eventRow;
-            
+
             private global::System.Data.DataRowAction eventAction;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeRowChangeEvent(tblEmployeeRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeRow Row {
@@ -4710,7 +4710,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.eventRow;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataRowAction Action {
@@ -4719,24 +4719,24 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public class tblEmployeeHistoryRowChangeEvent : global::System.EventArgs {
-            
+
             private tblEmployeeHistoryRow eventRow;
-            
+
             private global::System.Data.DataRowAction eventAction;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeHistoryRowChangeEvent(tblEmployeeHistoryRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblEmployeeHistoryRow Row {
@@ -4744,7 +4744,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.eventRow;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataRowAction Action {
@@ -4753,24 +4753,24 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public class tblGuestsRowChangeEvent : global::System.EventArgs {
-            
+
             private tblGuestsRow eventRow;
-            
+
             private global::System.Data.DataRowAction eventAction;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblGuestsRowChangeEvent(tblGuestsRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblGuestsRow Row {
@@ -4778,7 +4778,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.eventRow;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataRowAction Action {
@@ -4787,24 +4787,24 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public class tblReservationsRowChangeEvent : global::System.EventArgs {
-            
+
             private tblReservationsRow eventRow;
-            
+
             private global::System.Data.DataRowAction eventAction;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblReservationsRowChangeEvent(tblReservationsRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblReservationsRow Row {
@@ -4812,7 +4812,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.eventRow;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataRowAction Action {
@@ -4821,24 +4821,24 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public class tblRestaurantTransactionsRowChangeEvent : global::System.EventArgs {
-            
+
             private tblRestaurantTransactionsRow eventRow;
-            
+
             private global::System.Data.DataRowAction eventAction;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRestaurantTransactionsRowChangeEvent(tblRestaurantTransactionsRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRestaurantTransactionsRow Row {
@@ -4846,7 +4846,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.eventRow;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataRowAction Action {
@@ -4855,24 +4855,24 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public class tblRoomsRowChangeEvent : global::System.EventArgs {
-            
+
             private tblRoomsRow eventRow;
-            
+
             private global::System.Data.DataRowAction eventAction;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomsRowChangeEvent(tblRoomsRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomsRow Row {
@@ -4880,7 +4880,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.eventRow;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataRowAction Action {
@@ -4889,24 +4889,24 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public class tblRoomStatusesRowChangeEvent : global::System.EventArgs {
-            
+
             private tblRoomStatusesRow eventRow;
-            
+
             private global::System.Data.DataRowAction eventAction;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomStatusesRowChangeEvent(tblRoomStatusesRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomStatusesRow Row {
@@ -4914,7 +4914,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.eventRow;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataRowAction Action {
@@ -4923,24 +4923,24 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public class tblRoomTypeRowChangeEvent : global::System.EventArgs {
-            
+
             private tblRoomTypeRow eventRow;
-            
+
             private global::System.Data.DataRowAction eventAction;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomTypeRowChangeEvent(tblRoomTypeRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblRoomTypeRow Row {
@@ -4948,7 +4948,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.eventRow;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataRowAction Action {
@@ -4957,24 +4957,24 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public class tblServicesRowChangeEvent : global::System.EventArgs {
-            
+
             private tblServicesRow eventRow;
-            
+
             private global::System.Data.DataRowAction eventAction;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesRowChangeEvent(tblServicesRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesRow Row {
@@ -4982,7 +4982,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.eventRow;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataRowAction Action {
@@ -4991,24 +4991,24 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                 }
             }
         }
-        
+
         /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public class tblServicesTransactionsRowChangeEvent : global::System.EventArgs {
-            
+
             private tblServicesTransactionsRow eventRow;
-            
+
             private global::System.Data.DataRowAction eventAction;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesTransactionsRowChangeEvent(tblServicesTransactionsRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public tblServicesTransactionsRow Row {
@@ -5016,7 +5016,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
                     return this.eventRow;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataRowAction Action {
@@ -5027,9 +5027,9 @@ namespace snglrtycrvtureofspce.Hotels.Desktop {
         }
     }
 }
-namespace snglrtycrvtureofspce.Hotels.Desktop.KingWilliamHotelDBDataSetTableAdapters {
-    
-    
+namespace Hotels.Desktop.KingWilliamHotelDBDataSetTableAdapters {
+
+
     /// <summary>
     ///Represents the connection and commands used to retrieve and save data.
     ///</summary>
@@ -5040,23 +5040,23 @@ namespace snglrtycrvtureofspce.Hotels.Desktop.KingWilliamHotelDBDataSetTableAdap
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
     public partial class tblEmployeeTableAdapter : global::System.ComponentModel.Component {
-        
+
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
-        
+
         private global::System.Data.SqlClient.SqlConnection _connection;
-        
+
         private global::System.Data.SqlClient.SqlTransaction _transaction;
-        
+
         private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
-        
+
         private bool _clearBeforeFill;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public tblEmployeeTableAdapter() {
             this.ClearBeforeFill = true;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
@@ -5067,7 +5067,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop.KingWilliamHotelDBDataSetTableAdap
                 return this._adapter;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlConnection Connection {
@@ -5095,7 +5095,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop.KingWilliamHotelDBDataSetTableAdap
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlTransaction Transaction {
@@ -5107,21 +5107,21 @@ namespace snglrtycrvtureofspce.Hotels.Desktop.KingWilliamHotelDBDataSetTableAdap
                 for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
                     this.CommandCollection[i].Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.DeleteCommand != null))) {
                     this.Adapter.DeleteCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.InsertCommand != null))) {
                     this.Adapter.InsertCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.UpdateCommand != null))) {
                     this.Adapter.UpdateCommand.Transaction = this._transaction;
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
@@ -5132,7 +5132,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop.KingWilliamHotelDBDataSetTableAdap
                 return this._commandCollection;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public bool ClearBeforeFill {
@@ -5143,7 +5143,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop.KingWilliamHotelDBDataSetTableAdap
                 this._clearBeforeFill = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitAdapter() {
@@ -5207,14 +5207,14 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Position", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Position", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_PayRate", global::System.Data.SqlDbType.Money, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PayRate", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::snglrtycrvtureofspce.Hotels.Desktop.Properties.Settings.Default.connectionString;
+            this._connection.ConnectionString = global::Hotels.Desktop.Properties.Settings.Default.connectionString;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
@@ -5225,7 +5225,7 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
                 "ition, PayRate FROM dbo.tblEmployee";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -5238,7 +5238,7 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
             int returnValue = this.Adapter.Fill(dataTable);
             return returnValue;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -5249,21 +5249,21 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet.tblEmployeeDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet dataSet) {
             return this.Adapter.Update(dataSet, "tblEmployee");
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -5271,14 +5271,14 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
             return this.Adapter.Update(new global::System.Data.DataRow[] {
                         dataRow});
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(global::System.Data.DataRow[] dataRows) {
             return this.Adapter.Update(dataRows);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -5328,7 +5328,7 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
             }
             this.Adapter.DeleteCommand.Parameters[7].Value = ((decimal)(Original_PayRate));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
-            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.DeleteCommand.Connection.Open();
             }
@@ -5342,7 +5342,7 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -5392,7 +5392,7 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
             }
             this.Adapter.InsertCommand.Parameters[7].Value = ((decimal)(PayRate));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
-            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.InsertCommand.Connection.Open();
             }
@@ -5406,27 +5406,27 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
         public virtual int Update(
-                    string EmployeeID, 
-                    string FirstName, 
-                    string LastName, 
-                    string EmployeeAddress, 
-                    string Phone, 
-                    string EmployeeType, 
-                    string Position, 
-                    decimal PayRate, 
-                    string Original_EmployeeID, 
-                    string Original_FirstName, 
-                    string Original_LastName, 
-                    string Original_EmployeeAddress, 
-                    string Original_Phone, 
-                    string Original_EmployeeType, 
-                    string Original_Position, 
+                    string EmployeeID,
+                    string FirstName,
+                    string LastName,
+                    string EmployeeAddress,
+                    string Phone,
+                    string EmployeeType,
+                    string Position,
+                    decimal PayRate,
+                    string Original_EmployeeID,
+                    string Original_FirstName,
+                    string Original_LastName,
+                    string Original_EmployeeAddress,
+                    string Original_Phone,
+                    string Original_EmployeeType,
+                    string Original_Position,
                     decimal Original_PayRate) {
             if ((EmployeeID == null)) {
                 throw new global::System.ArgumentNullException("EmployeeID");
@@ -5515,7 +5515,7 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
             }
             this.Adapter.UpdateCommand.Parameters[15].Value = ((decimal)(Original_PayRate));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
-            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.UpdateCommand.Connection.Open();
             }
@@ -5529,7 +5529,7 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -5538,7 +5538,7 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
             return this.Update(Original_EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Position, PayRate, Original_EmployeeID, Original_FirstName, Original_LastName, Original_EmployeeAddress, Original_Phone, Original_EmployeeType, Original_Position, Original_PayRate);
         }
     }
-    
+
     /// <summary>
     ///Represents the connection and commands used to retrieve and save data.
     ///</summary>
@@ -5549,23 +5549,23 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
     public partial class tblEmployeeHistoryTableAdapter : global::System.ComponentModel.Component {
-        
+
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
-        
+
         private global::System.Data.SqlClient.SqlConnection _connection;
-        
+
         private global::System.Data.SqlClient.SqlTransaction _transaction;
-        
+
         private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
-        
+
         private bool _clearBeforeFill;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public tblEmployeeHistoryTableAdapter() {
             this.ClearBeforeFill = true;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
@@ -5576,7 +5576,7 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
                 return this._adapter;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlConnection Connection {
@@ -5604,7 +5604,7 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlTransaction Transaction {
@@ -5616,21 +5616,21 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
                 for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
                     this.CommandCollection[i].Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.DeleteCommand != null))) {
                     this.Adapter.DeleteCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.InsertCommand != null))) {
                     this.Adapter.InsertCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.UpdateCommand != null))) {
                     this.Adapter.UpdateCommand.Transaction = this._transaction;
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
@@ -5641,7 +5641,7 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
                 return this._commandCollection;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public bool ClearBeforeFill {
@@ -5652,7 +5652,7 @@ SELECT EmployeeID, FirstName, LastName, EmployeeAddress, Phone, EmployeeType, Po
                 this._clearBeforeFill = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitAdapter() {
@@ -5696,14 +5696,14 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_EndDate", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "EndDate", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_EndDate", global::System.Data.SqlDbType.Date, 0, global::System.Data.ParameterDirection.Input, 0, 0, "EndDate", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::snglrtycrvtureofspce.Hotels.Desktop.Properties.Settings.Default.connectionString;
+            this._connection.ConnectionString = global::Hotels.Desktop.Properties.Settings.Default.connectionString;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
@@ -5713,7 +5713,7 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
             this._commandCollection[0].CommandText = "SELECT EmployeeID, HireDate, EndDate FROM dbo.tblEmployeeHistory";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -5726,7 +5726,7 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
             int returnValue = this.Adapter.Fill(dataTable);
             return returnValue;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -5737,21 +5737,21 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet.tblEmployeeHistoryDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet dataSet) {
             return this.Adapter.Update(dataSet, "tblEmployeeHistory");
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -5759,14 +5759,14 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
             return this.Adapter.Update(new global::System.Data.DataRow[] {
                         dataRow});
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(global::System.Data.DataRow[] dataRows) {
             return this.Adapter.Update(dataRows);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -5788,7 +5788,7 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
                 this.Adapter.DeleteCommand.Parameters[3].Value = global::System.DBNull.Value;
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
-            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.DeleteCommand.Connection.Open();
             }
@@ -5802,7 +5802,7 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -5822,7 +5822,7 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
                 this.Adapter.InsertCommand.Parameters[2].Value = global::System.DBNull.Value;
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
-            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.InsertCommand.Connection.Open();
             }
@@ -5836,7 +5836,7 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -5871,7 +5871,7 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
                 this.Adapter.UpdateCommand.Parameters[6].Value = global::System.DBNull.Value;
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
-            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.UpdateCommand.Connection.Open();
             }
@@ -5885,7 +5885,7 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -5894,7 +5894,7 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
             return this.Update(Original_EmployeeID, Original_HireDate, EndDate, Original_EmployeeID, Original_HireDate, Original_EndDate);
         }
     }
-    
+
     /// <summary>
     ///Represents the connection and commands used to retrieve and save data.
     ///</summary>
@@ -5905,23 +5905,23 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
     public partial class tblGuestsTableAdapter : global::System.ComponentModel.Component {
-        
+
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
-        
+
         private global::System.Data.SqlClient.SqlConnection _connection;
-        
+
         private global::System.Data.SqlClient.SqlTransaction _transaction;
-        
+
         private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
-        
+
         private bool _clearBeforeFill;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public tblGuestsTableAdapter() {
             this.ClearBeforeFill = true;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
@@ -5932,7 +5932,7 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
                 return this._adapter;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlConnection Connection {
@@ -5960,7 +5960,7 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlTransaction Transaction {
@@ -5972,21 +5972,21 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
                 for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
                     this.CommandCollection[i].Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.DeleteCommand != null))) {
                     this.Adapter.DeleteCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.InsertCommand != null))) {
                     this.Adapter.InsertCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.UpdateCommand != null))) {
                     this.Adapter.UpdateCommand.Transaction = this._transaction;
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
@@ -5997,7 +5997,7 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
                 return this._commandCollection;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public bool ClearBeforeFill {
@@ -6008,7 +6008,7 @@ SELECT EmployeeID, HireDate, EndDate FROM tblEmployeeHistory WHERE (EmployeeID =
                 this._clearBeforeFill = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitAdapter() {
@@ -6068,14 +6068,14 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Phone", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Phone", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_EmailAddress", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "EmailAddress", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::snglrtycrvtureofspce.Hotels.Desktop.Properties.Settings.Default.connectionString;
+            this._connection.ConnectionString = global::Hotels.Desktop.Properties.Settings.Default.connectionString;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
@@ -6086,7 +6086,7 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
                 "OM dbo.tblGuests";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6099,7 +6099,7 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
             int returnValue = this.Adapter.Fill(dataTable);
             return returnValue;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6110,21 +6110,21 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet.tblGuestsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet dataSet) {
             return this.Adapter.Update(dataSet, "tblGuests");
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6132,14 +6132,14 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
             return this.Adapter.Update(new global::System.Data.DataRow[] {
                         dataRow});
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(global::System.Data.DataRow[] dataRows) {
             return this.Adapter.Update(dataRows);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6188,7 +6188,7 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
                 this.Adapter.DeleteCommand.Parameters[6].Value = ((string)(Original_EmailAddress));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
-            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.DeleteCommand.Connection.Open();
             }
@@ -6202,7 +6202,7 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6251,7 +6251,7 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
                 this.Adapter.InsertCommand.Parameters[6].Value = ((string)(EmailAddress));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
-            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.InsertCommand.Connection.Open();
             }
@@ -6265,7 +6265,7 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6356,7 +6356,7 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
                 this.Adapter.UpdateCommand.Parameters[13].Value = ((string)(Original_EmailAddress));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
-            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.UpdateCommand.Connection.Open();
             }
@@ -6370,7 +6370,7 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6379,7 +6379,7 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
             return this.Update(Original_GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress, Original_GuestID, Original_FirstName, Original_LastName, Original_GuestAddress, Original_Gender, Original_Phone, Original_EmailAddress);
         }
     }
-    
+
     /// <summary>
     ///Represents the connection and commands used to retrieve and save data.
     ///</summary>
@@ -6390,23 +6390,23 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
     public partial class tblReservationsTableAdapter : global::System.ComponentModel.Component {
-        
+
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
-        
+
         private global::System.Data.SqlClient.SqlConnection _connection;
-        
+
         private global::System.Data.SqlClient.SqlTransaction _transaction;
-        
+
         private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
-        
+
         private bool _clearBeforeFill;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public tblReservationsTableAdapter() {
             this.ClearBeforeFill = true;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
@@ -6417,7 +6417,7 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
                 return this._adapter;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlConnection Connection {
@@ -6445,7 +6445,7 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlTransaction Transaction {
@@ -6457,21 +6457,21 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
                 for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
                     this.CommandCollection[i].Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.DeleteCommand != null))) {
                     this.Adapter.DeleteCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.InsertCommand != null))) {
                     this.Adapter.InsertCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.UpdateCommand != null))) {
                     this.Adapter.UpdateCommand.Transaction = this._transaction;
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
@@ -6482,7 +6482,7 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
                 return this._commandCollection;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public bool ClearBeforeFill {
@@ -6493,7 +6493,7 @@ SELECT GuestID, FirstName, LastName, GuestAddress, Gender, Phone, EmailAddress F
                 this._clearBeforeFill = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitAdapter() {
@@ -6551,14 +6551,14 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ReservationEndDate", global::System.Data.SqlDbType.Date, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ReservationEndDate", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ReservationID", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "ReservationID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::snglrtycrvtureofspce.Hotels.Desktop.Properties.Settings.Default.connectionString;
+            this._connection.ConnectionString = global::Hotels.Desktop.Properties.Settings.Default.connectionString;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
@@ -6569,7 +6569,7 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
                 ", ReservationEndDate FROM dbo.tblReservations";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6582,7 +6582,7 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
             int returnValue = this.Adapter.Fill(dataTable);
             return returnValue;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6593,21 +6593,21 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet.tblReservationsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet dataSet) {
             return this.Adapter.Update(dataSet, "tblReservations");
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6615,14 +6615,14 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
             return this.Adapter.Update(new global::System.Data.DataRow[] {
                         dataRow});
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(global::System.Data.DataRow[] dataRows) {
             return this.Adapter.Update(dataRows);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6651,7 +6651,7 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
             this.Adapter.DeleteCommand.Parameters[5].Value = ((System.DateTime)(Original_ReservationStartDate));
             this.Adapter.DeleteCommand.Parameters[6].Value = ((System.DateTime)(Original_ReservationEndDate));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
-            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.DeleteCommand.Connection.Open();
             }
@@ -6665,7 +6665,7 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6693,7 +6693,7 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
             this.Adapter.InsertCommand.Parameters[4].Value = ((System.DateTime)(ReservationStartDate));
             this.Adapter.InsertCommand.Parameters[5].Value = ((System.DateTime)(ReservationEndDate));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
-            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.InsertCommand.Connection.Open();
             }
@@ -6707,7 +6707,7 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6758,7 +6758,7 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
             this.Adapter.UpdateCommand.Parameters[12].Value = ((System.DateTime)(Original_ReservationEndDate));
             this.Adapter.UpdateCommand.Parameters[13].Value = ((int)(ReservationID));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
-            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.UpdateCommand.Connection.Open();
             }
@@ -6772,7 +6772,7 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6781,7 +6781,7 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
             return this.Update(GuestID, RoomID, EmployeeID, DateMade, ReservationStartDate, ReservationEndDate, Original_ReservationID, Original_GuestID, Original_RoomID, Original_EmployeeID, Original_DateMade, Original_ReservationStartDate, Original_ReservationEndDate, Original_ReservationID);
         }
     }
-    
+
     /// <summary>
     ///Represents the connection and commands used to retrieve and save data.
     ///</summary>
@@ -6792,23 +6792,23 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
     public partial class tblRestaurantTransactionsTableAdapter : global::System.ComponentModel.Component {
-        
+
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
-        
+
         private global::System.Data.SqlClient.SqlConnection _connection;
-        
+
         private global::System.Data.SqlClient.SqlTransaction _transaction;
-        
+
         private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
-        
+
         private bool _clearBeforeFill;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public tblRestaurantTransactionsTableAdapter() {
             this.ClearBeforeFill = true;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
@@ -6819,7 +6819,7 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
                 return this._adapter;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlConnection Connection {
@@ -6847,7 +6847,7 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlTransaction Transaction {
@@ -6859,21 +6859,21 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
                 for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
                     this.CommandCollection[i].Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.DeleteCommand != null))) {
                     this.Adapter.DeleteCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.InsertCommand != null))) {
                     this.Adapter.InsertCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.UpdateCommand != null))) {
                     this.Adapter.UpdateCommand.Transaction = this._transaction;
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
@@ -6884,7 +6884,7 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
                 return this._commandCollection;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public bool ClearBeforeFill {
@@ -6895,7 +6895,7 @@ SELECT ReservationID, GuestID, RoomID, EmployeeID, DateMade, ReservationStartDat
                 this._clearBeforeFill = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitAdapter() {
@@ -6940,14 +6940,14 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_TransactionDate", global::System.Data.SqlDbType.Date, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TransactionDate", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@OrderID", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "OrderID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::snglrtycrvtureofspce.Hotels.Desktop.Properties.Settings.Default.connectionString;
+            this._connection.ConnectionString = global::Hotels.Desktop.Properties.Settings.Default.connectionString;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
@@ -6958,7 +6958,7 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
                 "ctions";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6971,7 +6971,7 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
             int returnValue = this.Adapter.Fill(dataTable);
             return returnValue;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -6982,21 +6982,21 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet.tblRestaurantTransactionsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet dataSet) {
             return this.Adapter.Update(dataSet, "tblRestaurantTransactions");
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7004,14 +7004,14 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
             return this.Adapter.Update(new global::System.Data.DataRow[] {
                         dataRow});
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(global::System.Data.DataRow[] dataRows) {
             return this.Adapter.Update(dataRows);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7022,7 +7022,7 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
             this.Adapter.DeleteCommand.Parameters[2].Value = ((decimal)(Original_Cost));
             this.Adapter.DeleteCommand.Parameters[3].Value = ((System.DateTime)(Original_TransactionDate));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
-            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.DeleteCommand.Connection.Open();
             }
@@ -7036,7 +7036,7 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7046,7 +7046,7 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
             this.Adapter.InsertCommand.Parameters[1].Value = ((decimal)(Cost));
             this.Adapter.InsertCommand.Parameters[2].Value = ((System.DateTime)(TransactionDate));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
-            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.InsertCommand.Connection.Open();
             }
@@ -7060,7 +7060,7 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7075,7 +7075,7 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
             this.Adapter.UpdateCommand.Parameters[6].Value = ((System.DateTime)(Original_TransactionDate));
             this.Adapter.UpdateCommand.Parameters[7].Value = ((int)(OrderID));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
-            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.UpdateCommand.Connection.Open();
             }
@@ -7089,7 +7089,7 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7098,7 +7098,7 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
             return this.Update(ReservationID, Cost, TransactionDate, Original_OrderID, Original_ReservationID, Original_Cost, Original_TransactionDate, Original_OrderID);
         }
     }
-    
+
     /// <summary>
     ///Represents the connection and commands used to retrieve and save data.
     ///</summary>
@@ -7109,23 +7109,23 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
     public partial class tblRoomsTableAdapter : global::System.ComponentModel.Component {
-        
+
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
-        
+
         private global::System.Data.SqlClient.SqlConnection _connection;
-        
+
         private global::System.Data.SqlClient.SqlTransaction _transaction;
-        
+
         private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
-        
+
         private bool _clearBeforeFill;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public tblRoomsTableAdapter() {
             this.ClearBeforeFill = true;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
@@ -7136,7 +7136,7 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
                 return this._adapter;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlConnection Connection {
@@ -7164,7 +7164,7 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlTransaction Transaction {
@@ -7176,21 +7176,21 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
                 for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
                     this.CommandCollection[i].Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.DeleteCommand != null))) {
                     this.Adapter.DeleteCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.InsertCommand != null))) {
                     this.Adapter.InsertCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.UpdateCommand != null))) {
                     this.Adapter.UpdateCommand.Transaction = this._transaction;
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
@@ -7201,7 +7201,7 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
                 return this._commandCollection;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public bool ClearBeforeFill {
@@ -7212,7 +7212,7 @@ SELECT OrderID, ReservationID, Cost, TransactionDate FROM tblRestaurantTransacti
                 this._clearBeforeFill = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitAdapter() {
@@ -7264,14 +7264,14 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Cost", global::System.Data.SqlDbType.Money, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Cost", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_RoomFloor", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "RoomFloor", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::snglrtycrvtureofspce.Hotels.Desktop.Properties.Settings.Default.connectionString;
+            this._connection.ConnectionString = global::Hotels.Desktop.Properties.Settings.Default.connectionString;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
@@ -7281,7 +7281,7 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
             this._commandCollection[0].CommandText = "SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM dbo.tblRooms";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7294,7 +7294,7 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
             int returnValue = this.Adapter.Fill(dataTable);
             return returnValue;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7305,21 +7305,21 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet.tblRoomsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet dataSet) {
             return this.Adapter.Update(dataSet, "tblRooms");
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7327,14 +7327,14 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
             return this.Adapter.Update(new global::System.Data.DataRow[] {
                         dataRow});
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(global::System.Data.DataRow[] dataRows) {
             return this.Adapter.Update(dataRows);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7356,7 +7356,7 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
             this.Adapter.DeleteCommand.Parameters[3].Value = ((decimal)(Original_Cost));
             this.Adapter.DeleteCommand.Parameters[4].Value = ((int)(Original_RoomFloor));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
-            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.DeleteCommand.Connection.Open();
             }
@@ -7370,7 +7370,7 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7392,7 +7392,7 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
             this.Adapter.InsertCommand.Parameters[3].Value = ((decimal)(Cost));
             this.Adapter.InsertCommand.Parameters[4].Value = ((int)(RoomFloor));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
-            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.InsertCommand.Connection.Open();
             }
@@ -7406,7 +7406,7 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7443,7 +7443,7 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
             this.Adapter.UpdateCommand.Parameters[8].Value = ((decimal)(Original_Cost));
             this.Adapter.UpdateCommand.Parameters[9].Value = ((int)(Original_RoomFloor));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
-            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.UpdateCommand.Connection.Open();
             }
@@ -7457,7 +7457,7 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7466,7 +7466,7 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
             return this.Update(Original_RoomID, RoomTypeID, StatusID, Cost, RoomFloor, Original_RoomID, Original_RoomTypeID, Original_StatusID, Original_Cost, Original_RoomFloor);
         }
     }
-    
+
     /// <summary>
     ///Represents the connection and commands used to retrieve and save data.
     ///</summary>
@@ -7477,23 +7477,23 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
     public partial class tblRoomStatusesTableAdapter : global::System.ComponentModel.Component {
-        
+
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
-        
+
         private global::System.Data.SqlClient.SqlConnection _connection;
-        
+
         private global::System.Data.SqlClient.SqlTransaction _transaction;
-        
+
         private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
-        
+
         private bool _clearBeforeFill;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public tblRoomStatusesTableAdapter() {
             this.ClearBeforeFill = true;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
@@ -7504,7 +7504,7 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
                 return this._adapter;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlConnection Connection {
@@ -7532,7 +7532,7 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlTransaction Transaction {
@@ -7544,21 +7544,21 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
                 for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
                     this.CommandCollection[i].Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.DeleteCommand != null))) {
                     this.Adapter.DeleteCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.InsertCommand != null))) {
                     this.Adapter.InsertCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.UpdateCommand != null))) {
                     this.Adapter.UpdateCommand.Transaction = this._transaction;
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
@@ -7569,7 +7569,7 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
                 return this._commandCollection;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public bool ClearBeforeFill {
@@ -7580,7 +7580,7 @@ SELECT RoomID, RoomTypeID, StatusID, Cost, RoomFloor FROM tblRooms WHERE (RoomID
                 this._clearBeforeFill = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitAdapter() {
@@ -7615,14 +7615,14 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_StatusDescription", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "StatusDescription", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@StatusID", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "StatusID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::snglrtycrvtureofspce.Hotels.Desktop.Properties.Settings.Default.connectionString;
+            this._connection.ConnectionString = global::Hotels.Desktop.Properties.Settings.Default.connectionString;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
@@ -7632,7 +7632,7 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
             this._commandCollection[0].CommandText = "SELECT StatusID, StatusDescription FROM dbo.tblRoomStatuses";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7645,7 +7645,7 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
             int returnValue = this.Adapter.Fill(dataTable);
             return returnValue;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7656,21 +7656,21 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet.tblRoomStatusesDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet dataSet) {
             return this.Adapter.Update(dataSet, "tblRoomStatuses");
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7678,14 +7678,14 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
             return this.Adapter.Update(new global::System.Data.DataRow[] {
                         dataRow});
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(global::System.Data.DataRow[] dataRows) {
             return this.Adapter.Update(dataRows);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7699,7 +7699,7 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
                 this.Adapter.DeleteCommand.Parameters[1].Value = ((string)(Original_StatusDescription));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
-            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.DeleteCommand.Connection.Open();
             }
@@ -7713,7 +7713,7 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7726,7 +7726,7 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
                 this.Adapter.InsertCommand.Parameters[0].Value = ((string)(StatusDescription));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
-            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.InsertCommand.Connection.Open();
             }
@@ -7740,7 +7740,7 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7761,7 +7761,7 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
             }
             this.Adapter.UpdateCommand.Parameters[3].Value = ((int)(StatusID));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
-            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.UpdateCommand.Connection.Open();
             }
@@ -7775,7 +7775,7 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7784,7 +7784,7 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
             return this.Update(StatusDescription, Original_StatusID, Original_StatusDescription, Original_StatusID);
         }
     }
-    
+
     /// <summary>
     ///Represents the connection and commands used to retrieve and save data.
     ///</summary>
@@ -7795,23 +7795,23 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
     public partial class tblRoomTypeTableAdapter : global::System.ComponentModel.Component {
-        
+
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
-        
+
         private global::System.Data.SqlClient.SqlConnection _connection;
-        
+
         private global::System.Data.SqlClient.SqlTransaction _transaction;
-        
+
         private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
-        
+
         private bool _clearBeforeFill;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public tblRoomTypeTableAdapter() {
             this.ClearBeforeFill = true;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
@@ -7822,7 +7822,7 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
                 return this._adapter;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlConnection Connection {
@@ -7850,7 +7850,7 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlTransaction Transaction {
@@ -7862,21 +7862,21 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
                 for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
                     this.CommandCollection[i].Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.DeleteCommand != null))) {
                     this.Adapter.DeleteCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.InsertCommand != null))) {
                     this.Adapter.InsertCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.UpdateCommand != null))) {
                     this.Adapter.UpdateCommand.Transaction = this._transaction;
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
@@ -7887,7 +7887,7 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
                 return this._commandCollection;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public bool ClearBeforeFill {
@@ -7898,7 +7898,7 @@ SELECT StatusID, StatusDescription FROM tblRoomStatuses WHERE (StatusID = @Statu
                 this._clearBeforeFill = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitAdapter() {
@@ -7934,14 +7934,14 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_RoomTypeID", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "RoomTypeID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_TypeDescription", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TypeDescription", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::snglrtycrvtureofspce.Hotels.Desktop.Properties.Settings.Default.connectionString;
+            this._connection.ConnectionString = global::Hotels.Desktop.Properties.Settings.Default.connectionString;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
@@ -7951,7 +7951,7 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
             this._commandCollection[0].CommandText = "SELECT RoomTypeID, TypeDescription FROM dbo.tblRoomType";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7964,7 +7964,7 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
             int returnValue = this.Adapter.Fill(dataTable);
             return returnValue;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7975,21 +7975,21 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet.tblRoomTypeDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet dataSet) {
             return this.Adapter.Update(dataSet, "tblRoomType");
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -7997,14 +7997,14 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
             return this.Adapter.Update(new global::System.Data.DataRow[] {
                         dataRow});
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(global::System.Data.DataRow[] dataRows) {
             return this.Adapter.Update(dataRows);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8023,7 +8023,7 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
                 this.Adapter.DeleteCommand.Parameters[1].Value = ((string)(Original_TypeDescription));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
-            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.DeleteCommand.Connection.Open();
             }
@@ -8037,7 +8037,7 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8056,7 +8056,7 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
                 this.Adapter.InsertCommand.Parameters[1].Value = ((string)(TypeDescription));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
-            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.InsertCommand.Connection.Open();
             }
@@ -8070,7 +8070,7 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8101,7 +8101,7 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
                 this.Adapter.UpdateCommand.Parameters[3].Value = ((string)(Original_TypeDescription));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
-            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.UpdateCommand.Connection.Open();
             }
@@ -8115,7 +8115,7 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8124,7 +8124,7 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
             return this.Update(Original_RoomTypeID, TypeDescription, Original_RoomTypeID, Original_TypeDescription);
         }
     }
-    
+
     /// <summary>
     ///Represents the connection and commands used to retrieve and save data.
     ///</summary>
@@ -8135,23 +8135,23 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
     public partial class tblServicesTableAdapter : global::System.ComponentModel.Component {
-        
+
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
-        
+
         private global::System.Data.SqlClient.SqlConnection _connection;
-        
+
         private global::System.Data.SqlClient.SqlTransaction _transaction;
-        
+
         private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
-        
+
         private bool _clearBeforeFill;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public tblServicesTableAdapter() {
             this.ClearBeforeFill = true;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
@@ -8162,7 +8162,7 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
                 return this._adapter;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlConnection Connection {
@@ -8190,7 +8190,7 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlTransaction Transaction {
@@ -8202,21 +8202,21 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
                 for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
                     this.CommandCollection[i].Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.DeleteCommand != null))) {
                     this.Adapter.DeleteCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.InsertCommand != null))) {
                     this.Adapter.InsertCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.UpdateCommand != null))) {
                     this.Adapter.UpdateCommand.Transaction = this._transaction;
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
@@ -8227,7 +8227,7 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
                 return this._commandCollection;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public bool ClearBeforeFill {
@@ -8238,7 +8238,7 @@ SELECT RoomTypeID, TypeDescription FROM tblRoomType WHERE (RoomTypeID = @RoomTyp
                 this._clearBeforeFill = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitAdapter() {
@@ -8279,14 +8279,14 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Cost", global::System.Data.SqlDbType.Money, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Cost", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ServiceId", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "ServiceId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::snglrtycrvtureofspce.Hotels.Desktop.Properties.Settings.Default.connectionString;
+            this._connection.ConnectionString = global::Hotels.Desktop.Properties.Settings.Default.connectionString;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
@@ -8296,7 +8296,7 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
             this._commandCollection[0].CommandText = "SELECT ServiceId, ServiceDescription, Cost FROM dbo.tblServices";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8309,7 +8309,7 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
             int returnValue = this.Adapter.Fill(dataTable);
             return returnValue;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8320,21 +8320,21 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet.tblServicesDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet dataSet) {
             return this.Adapter.Update(dataSet, "tblServices");
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8342,14 +8342,14 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
             return this.Adapter.Update(new global::System.Data.DataRow[] {
                         dataRow});
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(global::System.Data.DataRow[] dataRows) {
             return this.Adapter.Update(dataRows);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8364,7 +8364,7 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
             }
             this.Adapter.DeleteCommand.Parameters[2].Value = ((decimal)(Original_Cost));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
-            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.DeleteCommand.Connection.Open();
             }
@@ -8378,7 +8378,7 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8392,7 +8392,7 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
             }
             this.Adapter.InsertCommand.Parameters[1].Value = ((decimal)(Cost));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
-            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.InsertCommand.Connection.Open();
             }
@@ -8406,7 +8406,7 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8429,7 +8429,7 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
             this.Adapter.UpdateCommand.Parameters[4].Value = ((decimal)(Original_Cost));
             this.Adapter.UpdateCommand.Parameters[5].Value = ((int)(ServiceId));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
-            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.UpdateCommand.Connection.Open();
             }
@@ -8443,7 +8443,7 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8452,7 +8452,7 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
             return this.Update(ServiceDescription, Cost, Original_ServiceId, Original_ServiceDescription, Original_Cost, Original_ServiceId);
         }
     }
-    
+
     /// <summary>
     ///Represents the connection and commands used to retrieve and save data.
     ///</summary>
@@ -8463,23 +8463,23 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
     public partial class tblServicesTransactionsTableAdapter : global::System.ComponentModel.Component {
-        
+
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
-        
+
         private global::System.Data.SqlClient.SqlConnection _connection;
-        
+
         private global::System.Data.SqlClient.SqlTransaction _transaction;
-        
+
         private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
-        
+
         private bool _clearBeforeFill;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public tblServicesTransactionsTableAdapter() {
             this.ClearBeforeFill = true;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
@@ -8490,7 +8490,7 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
                 return this._adapter;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlConnection Connection {
@@ -8518,7 +8518,7 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal global::System.Data.SqlClient.SqlTransaction Transaction {
@@ -8530,21 +8530,21 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
                 for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
                     this.CommandCollection[i].Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.DeleteCommand != null))) {
                     this.Adapter.DeleteCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.InsertCommand != null))) {
                     this.Adapter.InsertCommand.Transaction = this._transaction;
                 }
-                if (((this.Adapter != null) 
+                if (((this.Adapter != null)
                             && (this.Adapter.UpdateCommand != null))) {
                     this.Adapter.UpdateCommand.Transaction = this._transaction;
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
@@ -8555,7 +8555,7 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
                 return this._commandCollection;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public bool ClearBeforeFill {
@@ -8566,7 +8566,7 @@ SELECT ServiceId, ServiceDescription, Cost FROM tblServices WHERE (ServiceId = @
                 this._clearBeforeFill = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitAdapter() {
@@ -8612,14 +8612,14 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ServiceDate", global::System.Data.SqlDbType.Date, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ServiceDate", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ServiceTransactionID", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "ServiceTransactionID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::snglrtycrvtureofspce.Hotels.Desktop.Properties.Settings.Default.connectionString;
+            this._connection.ConnectionString = global::Hotels.Desktop.Properties.Settings.Default.connectionString;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitCommandCollection() {
@@ -8630,7 +8630,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 "rvicesTransactions";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8643,7 +8643,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             int returnValue = this.Adapter.Fill(dataTable);
             return returnValue;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8654,21 +8654,21 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet.tblServicesTransactionsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(KingWilliamHotelDBDataSet dataSet) {
             return this.Adapter.Update(dataSet, "tblServicesTransactions");
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8676,14 +8676,14 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             return this.Adapter.Update(new global::System.Data.DataRow[] {
                         dataRow});
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(global::System.Data.DataRow[] dataRows) {
             return this.Adapter.Update(dataRows);
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8694,7 +8694,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             this.Adapter.DeleteCommand.Parameters[2].Value = ((int)(Original_ServiceID));
             this.Adapter.DeleteCommand.Parameters[3].Value = ((System.DateTime)(Original_ServiceDate));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
-            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.DeleteCommand.Connection.Open();
             }
@@ -8708,7 +8708,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8718,7 +8718,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             this.Adapter.InsertCommand.Parameters[1].Value = ((int)(ServiceID));
             this.Adapter.InsertCommand.Parameters[2].Value = ((System.DateTime)(ServiceDate));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
-            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.InsertCommand.Connection.Open();
             }
@@ -8732,7 +8732,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8747,7 +8747,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             this.Adapter.UpdateCommand.Parameters[6].Value = ((System.DateTime)(Original_ServiceDate));
             this.Adapter.UpdateCommand.Parameters[7].Value = ((int)(ServiceTransactionID));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
-            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open)) {
                 this.Adapter.UpdateCommand.Connection.Open();
             }
@@ -8761,7 +8761,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 }
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
@@ -8770,7 +8770,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             return this.Update(ReservationID, ServiceID, ServiceDate, Original_ServiceTransactionID, Original_ReservationID, Original_ServiceID, Original_ServiceDate, Original_ServiceTransactionID);
         }
     }
-    
+
     /// <summary>
     ///TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
     ///</summary>
@@ -8780,33 +8780,33 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
         "esigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapterManager")]
     public partial class TableAdapterManager : global::System.ComponentModel.Component {
-        
+
         private UpdateOrderOption _updateOrder;
-        
+
         private tblEmployeeTableAdapter _tblEmployeeTableAdapter;
-        
+
         private tblEmployeeHistoryTableAdapter _tblEmployeeHistoryTableAdapter;
-        
+
         private tblGuestsTableAdapter _tblGuestsTableAdapter;
-        
+
         private tblReservationsTableAdapter _tblReservationsTableAdapter;
-        
+
         private tblRestaurantTransactionsTableAdapter _tblRestaurantTransactionsTableAdapter;
-        
+
         private tblRoomsTableAdapter _tblRoomsTableAdapter;
-        
+
         private tblRoomStatusesTableAdapter _tblRoomStatusesTableAdapter;
-        
+
         private tblRoomTypeTableAdapter _tblRoomTypeTableAdapter;
-        
+
         private tblServicesTableAdapter _tblServicesTableAdapter;
-        
+
         private tblServicesTransactionsTableAdapter _tblServicesTransactionsTableAdapter;
-        
+
         private bool _backupDataSetBeforeUpdate;
-        
+
         private global::System.Data.IDbConnection _connection;
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public UpdateOrderOption UpdateOrder {
@@ -8817,7 +8817,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 this._updateOrder = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
@@ -8831,7 +8831,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 this._tblEmployeeTableAdapter = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
@@ -8845,7 +8845,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 this._tblEmployeeHistoryTableAdapter = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
@@ -8859,7 +8859,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 this._tblGuestsTableAdapter = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
@@ -8873,7 +8873,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 this._tblReservationsTableAdapter = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
@@ -8887,7 +8887,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 this._tblRestaurantTransactionsTableAdapter = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
@@ -8901,7 +8901,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 this._tblRoomsTableAdapter = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
@@ -8915,7 +8915,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 this._tblRoomStatusesTableAdapter = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
@@ -8929,7 +8929,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 this._tblRoomTypeTableAdapter = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
@@ -8943,7 +8943,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 this._tblServicesTableAdapter = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
@@ -8957,7 +8957,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 this._tblServicesTransactionsTableAdapter = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public bool BackupDataSetBeforeUpdate {
@@ -8968,7 +8968,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 this._backupDataSetBeforeUpdate = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -8977,43 +8977,43 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 if ((this._connection != null)) {
                     return this._connection;
                 }
-                if (((this._tblEmployeeTableAdapter != null) 
+                if (((this._tblEmployeeTableAdapter != null)
                             && (this._tblEmployeeTableAdapter.Connection != null))) {
                     return this._tblEmployeeTableAdapter.Connection;
                 }
-                if (((this._tblEmployeeHistoryTableAdapter != null) 
+                if (((this._tblEmployeeHistoryTableAdapter != null)
                             && (this._tblEmployeeHistoryTableAdapter.Connection != null))) {
                     return this._tblEmployeeHistoryTableAdapter.Connection;
                 }
-                if (((this._tblGuestsTableAdapter != null) 
+                if (((this._tblGuestsTableAdapter != null)
                             && (this._tblGuestsTableAdapter.Connection != null))) {
                     return this._tblGuestsTableAdapter.Connection;
                 }
-                if (((this._tblReservationsTableAdapter != null) 
+                if (((this._tblReservationsTableAdapter != null)
                             && (this._tblReservationsTableAdapter.Connection != null))) {
                     return this._tblReservationsTableAdapter.Connection;
                 }
-                if (((this._tblRestaurantTransactionsTableAdapter != null) 
+                if (((this._tblRestaurantTransactionsTableAdapter != null)
                             && (this._tblRestaurantTransactionsTableAdapter.Connection != null))) {
                     return this._tblRestaurantTransactionsTableAdapter.Connection;
                 }
-                if (((this._tblRoomsTableAdapter != null) 
+                if (((this._tblRoomsTableAdapter != null)
                             && (this._tblRoomsTableAdapter.Connection != null))) {
                     return this._tblRoomsTableAdapter.Connection;
                 }
-                if (((this._tblRoomStatusesTableAdapter != null) 
+                if (((this._tblRoomStatusesTableAdapter != null)
                             && (this._tblRoomStatusesTableAdapter.Connection != null))) {
                     return this._tblRoomStatusesTableAdapter.Connection;
                 }
-                if (((this._tblRoomTypeTableAdapter != null) 
+                if (((this._tblRoomTypeTableAdapter != null)
                             && (this._tblRoomTypeTableAdapter.Connection != null))) {
                     return this._tblRoomTypeTableAdapter.Connection;
                 }
-                if (((this._tblServicesTableAdapter != null) 
+                if (((this._tblServicesTableAdapter != null)
                             && (this._tblServicesTableAdapter.Connection != null))) {
                     return this._tblServicesTableAdapter.Connection;
                 }
-                if (((this._tblServicesTransactionsTableAdapter != null) 
+                if (((this._tblServicesTransactionsTableAdapter != null)
                             && (this._tblServicesTransactionsTableAdapter.Connection != null))) {
                     return this._tblServicesTransactionsTableAdapter.Connection;
                 }
@@ -9023,7 +9023,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 this._connection = value;
             }
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
@@ -9063,7 +9063,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                 return count;
             }
         }
-        
+
         /// <summary>
         ///Update rows in top-down order.
         ///</summary>
@@ -9074,7 +9074,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             if ((this._tblRoomStatusesTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.tblRoomStatuses.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
+                if (((updatedRows != null)
                             && (0 < updatedRows.Length))) {
                     result = (result + this._tblRoomStatusesTableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
@@ -9083,7 +9083,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             if ((this._tblRoomTypeTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.tblRoomType.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
+                if (((updatedRows != null)
                             && (0 < updatedRows.Length))) {
                     result = (result + this._tblRoomTypeTableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
@@ -9092,7 +9092,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             if ((this._tblEmployeeTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.tblEmployee.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
+                if (((updatedRows != null)
                             && (0 < updatedRows.Length))) {
                     result = (result + this._tblEmployeeTableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
@@ -9101,7 +9101,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             if ((this._tblGuestsTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.tblGuests.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
+                if (((updatedRows != null)
                             && (0 < updatedRows.Length))) {
                     result = (result + this._tblGuestsTableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
@@ -9110,7 +9110,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             if ((this._tblRoomsTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.tblRooms.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
+                if (((updatedRows != null)
                             && (0 < updatedRows.Length))) {
                     result = (result + this._tblRoomsTableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
@@ -9119,7 +9119,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             if ((this._tblReservationsTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.tblReservations.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
+                if (((updatedRows != null)
                             && (0 < updatedRows.Length))) {
                     result = (result + this._tblReservationsTableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
@@ -9128,7 +9128,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             if ((this._tblServicesTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.tblServices.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
+                if (((updatedRows != null)
                             && (0 < updatedRows.Length))) {
                     result = (result + this._tblServicesTableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
@@ -9137,7 +9137,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             if ((this._tblEmployeeHistoryTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.tblEmployeeHistory.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
+                if (((updatedRows != null)
                             && (0 < updatedRows.Length))) {
                     result = (result + this._tblEmployeeHistoryTableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
@@ -9146,7 +9146,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             if ((this._tblRestaurantTransactionsTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.tblRestaurantTransactions.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
+                if (((updatedRows != null)
                             && (0 < updatedRows.Length))) {
                     result = (result + this._tblRestaurantTransactionsTableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
@@ -9155,7 +9155,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             if ((this._tblServicesTransactionsTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.tblServicesTransactions.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
+                if (((updatedRows != null)
                             && (0 < updatedRows.Length))) {
                     result = (result + this._tblServicesTransactionsTableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
@@ -9163,7 +9163,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             return result;
         }
-        
+
         /// <summary>
         ///Insert rows in top-down order.
         ///</summary>
@@ -9173,7 +9173,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             int result = 0;
             if ((this._tblRoomStatusesTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.tblRoomStatuses.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
+                if (((addedRows != null)
                             && (0 < addedRows.Length))) {
                     result = (result + this._tblRoomStatusesTableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
@@ -9181,7 +9181,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblRoomTypeTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.tblRoomType.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
+                if (((addedRows != null)
                             && (0 < addedRows.Length))) {
                     result = (result + this._tblRoomTypeTableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
@@ -9189,7 +9189,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblEmployeeTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.tblEmployee.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
+                if (((addedRows != null)
                             && (0 < addedRows.Length))) {
                     result = (result + this._tblEmployeeTableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
@@ -9197,7 +9197,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblGuestsTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.tblGuests.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
+                if (((addedRows != null)
                             && (0 < addedRows.Length))) {
                     result = (result + this._tblGuestsTableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
@@ -9205,7 +9205,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblRoomsTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.tblRooms.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
+                if (((addedRows != null)
                             && (0 < addedRows.Length))) {
                     result = (result + this._tblRoomsTableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
@@ -9213,7 +9213,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblReservationsTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.tblReservations.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
+                if (((addedRows != null)
                             && (0 < addedRows.Length))) {
                     result = (result + this._tblReservationsTableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
@@ -9221,7 +9221,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblServicesTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.tblServices.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
+                if (((addedRows != null)
                             && (0 < addedRows.Length))) {
                     result = (result + this._tblServicesTableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
@@ -9229,7 +9229,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblEmployeeHistoryTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.tblEmployeeHistory.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
+                if (((addedRows != null)
                             && (0 < addedRows.Length))) {
                     result = (result + this._tblEmployeeHistoryTableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
@@ -9237,7 +9237,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblRestaurantTransactionsTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.tblRestaurantTransactions.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
+                if (((addedRows != null)
                             && (0 < addedRows.Length))) {
                     result = (result + this._tblRestaurantTransactionsTableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
@@ -9245,7 +9245,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblServicesTransactionsTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.tblServicesTransactions.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
+                if (((addedRows != null)
                             && (0 < addedRows.Length))) {
                     result = (result + this._tblServicesTransactionsTableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
@@ -9253,7 +9253,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             return result;
         }
-        
+
         /// <summary>
         ///Delete rows in bottom-up order.
         ///</summary>
@@ -9263,7 +9263,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             int result = 0;
             if ((this._tblServicesTransactionsTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.tblServicesTransactions.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
+                if (((deletedRows != null)
                             && (0 < deletedRows.Length))) {
                     result = (result + this._tblServicesTransactionsTableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
@@ -9271,7 +9271,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblRestaurantTransactionsTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.tblRestaurantTransactions.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
+                if (((deletedRows != null)
                             && (0 < deletedRows.Length))) {
                     result = (result + this._tblRestaurantTransactionsTableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
@@ -9279,7 +9279,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblEmployeeHistoryTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.tblEmployeeHistory.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
+                if (((deletedRows != null)
                             && (0 < deletedRows.Length))) {
                     result = (result + this._tblEmployeeHistoryTableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
@@ -9287,7 +9287,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblServicesTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.tblServices.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
+                if (((deletedRows != null)
                             && (0 < deletedRows.Length))) {
                     result = (result + this._tblServicesTableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
@@ -9295,7 +9295,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblReservationsTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.tblReservations.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
+                if (((deletedRows != null)
                             && (0 < deletedRows.Length))) {
                     result = (result + this._tblReservationsTableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
@@ -9303,7 +9303,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblRoomsTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.tblRooms.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
+                if (((deletedRows != null)
                             && (0 < deletedRows.Length))) {
                     result = (result + this._tblRoomsTableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
@@ -9311,7 +9311,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblGuestsTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.tblGuests.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
+                if (((deletedRows != null)
                             && (0 < deletedRows.Length))) {
                     result = (result + this._tblGuestsTableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
@@ -9319,7 +9319,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblEmployeeTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.tblEmployee.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
+                if (((deletedRows != null)
                             && (0 < deletedRows.Length))) {
                     result = (result + this._tblEmployeeTableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
@@ -9327,7 +9327,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblRoomTypeTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.tblRoomType.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
+                if (((deletedRows != null)
                             && (0 < deletedRows.Length))) {
                     result = (result + this._tblRoomTypeTableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
@@ -9335,7 +9335,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             if ((this._tblRoomStatusesTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.tblRoomStatuses.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
+                if (((deletedRows != null)
                             && (0 < deletedRows.Length))) {
                     result = (result + this._tblRoomStatusesTableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
@@ -9343,18 +9343,18 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             return result;
         }
-        
+
         /// <summary>
         ///Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private global::System.Data.DataRow[] GetRealUpdatedRows(global::System.Data.DataRow[] updatedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
-            if (((updatedRows == null) 
+            if (((updatedRows == null)
                         || (updatedRows.Length < 1))) {
                 return updatedRows;
             }
-            if (((allAddedRows == null) 
+            if (((allAddedRows == null)
                         || (allAddedRows.Count < 1))) {
                 return updatedRows;
             }
@@ -9367,7 +9367,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             return realUpdatedRows.ToArray();
         }
-        
+
         /// <summary>
         ///Update all changes to the dataset.
         ///</summary>
@@ -9380,52 +9380,52 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             if ((dataSet.HasChanges() == false)) {
                 return 0;
             }
-            if (((this._tblEmployeeTableAdapter != null) 
+            if (((this._tblEmployeeTableAdapter != null)
                         && (this.MatchTableAdapterConnection(this._tblEmployeeTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("Все адаптеры таблицы, управляемые диспетчером адаптера таблицы TableAdapterManage" +
                         "r, должны использовать одинаковую строку подключения.");
             }
-            if (((this._tblEmployeeHistoryTableAdapter != null) 
+            if (((this._tblEmployeeHistoryTableAdapter != null)
                         && (this.MatchTableAdapterConnection(this._tblEmployeeHistoryTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("Все адаптеры таблицы, управляемые диспетчером адаптера таблицы TableAdapterManage" +
                         "r, должны использовать одинаковую строку подключения.");
             }
-            if (((this._tblGuestsTableAdapter != null) 
+            if (((this._tblGuestsTableAdapter != null)
                         && (this.MatchTableAdapterConnection(this._tblGuestsTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("Все адаптеры таблицы, управляемые диспетчером адаптера таблицы TableAdapterManage" +
                         "r, должны использовать одинаковую строку подключения.");
             }
-            if (((this._tblReservationsTableAdapter != null) 
+            if (((this._tblReservationsTableAdapter != null)
                         && (this.MatchTableAdapterConnection(this._tblReservationsTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("Все адаптеры таблицы, управляемые диспетчером адаптера таблицы TableAdapterManage" +
                         "r, должны использовать одинаковую строку подключения.");
             }
-            if (((this._tblRestaurantTransactionsTableAdapter != null) 
+            if (((this._tblRestaurantTransactionsTableAdapter != null)
                         && (this.MatchTableAdapterConnection(this._tblRestaurantTransactionsTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("Все адаптеры таблицы, управляемые диспетчером адаптера таблицы TableAdapterManage" +
                         "r, должны использовать одинаковую строку подключения.");
             }
-            if (((this._tblRoomsTableAdapter != null) 
+            if (((this._tblRoomsTableAdapter != null)
                         && (this.MatchTableAdapterConnection(this._tblRoomsTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("Все адаптеры таблицы, управляемые диспетчером адаптера таблицы TableAdapterManage" +
                         "r, должны использовать одинаковую строку подключения.");
             }
-            if (((this._tblRoomStatusesTableAdapter != null) 
+            if (((this._tblRoomStatusesTableAdapter != null)
                         && (this.MatchTableAdapterConnection(this._tblRoomStatusesTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("Все адаптеры таблицы, управляемые диспетчером адаптера таблицы TableAdapterManage" +
                         "r, должны использовать одинаковую строку подключения.");
             }
-            if (((this._tblRoomTypeTableAdapter != null) 
+            if (((this._tblRoomTypeTableAdapter != null)
                         && (this.MatchTableAdapterConnection(this._tblRoomTypeTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("Все адаптеры таблицы, управляемые диспетчером адаптера таблицы TableAdapterManage" +
                         "r, должны использовать одинаковую строку подключения.");
             }
-            if (((this._tblServicesTableAdapter != null) 
+            if (((this._tblServicesTableAdapter != null)
                         && (this.MatchTableAdapterConnection(this._tblServicesTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("Все адаптеры таблицы, управляемые диспетчером адаптера таблицы TableAdapterManage" +
                         "r, должны использовать одинаковую строку подключения.");
             }
-            if (((this._tblServicesTransactionsTableAdapter != null) 
+            if (((this._tblServicesTransactionsTableAdapter != null)
                         && (this.MatchTableAdapterConnection(this._tblServicesTransactionsTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("Все адаптеры таблицы, управляемые диспетчером адаптера таблицы TableAdapterManage" +
                         "r, должны использовать одинаковую строку подключения.");
@@ -9436,7 +9436,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                         "ера таблицы TableAdapterManager допустимый экземпляр адаптера таблицы.");
             }
             bool workConnOpened = false;
-            if (((workConnection.State & global::System.Data.ConnectionState.Broken) 
+            if (((workConnection.State & global::System.Data.ConnectionState.Broken)
                         == global::System.Data.ConnectionState.Broken)) {
                 workConnection.Close();
             }
@@ -9552,7 +9552,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                         adaptersWithAcceptChangesDuringUpdate.Add(this._tblServicesTransactionsTableAdapter.Adapter);
                     }
                 }
-                // 
+                //
                 //---- Perform updates -----------
                 //
                 if ((this.UpdateOrder == UpdateOrderOption.UpdateInsertDelete)) {
@@ -9564,7 +9564,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                     result = (result + this.UpdateUpdatedRows(dataSet, allChangedRows, allAddedRows));
                 }
                 result = (result + this.UpdateDeletedRows(dataSet, allChangedRows));
-                // 
+                //
                 //---- Commit updates -----------
                 //
                 workTransaction.Commit();
@@ -9661,20 +9661,20 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             return result;
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected virtual void SortSelfReferenceRows(global::System.Data.DataRow[] rows, global::System.Data.DataRelation relation, bool childFirst) {
             global::System.Array.Sort<global::System.Data.DataRow>(rows, new SelfReferenceComparer(relation, childFirst));
         }
-        
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         protected virtual bool MatchTableAdapterConnection(global::System.Data.IDbConnection inputConnection) {
             if ((this._connection != null)) {
                 return true;
             }
-            if (((this.Connection == null) 
+            if (((this.Connection == null)
                         || (inputConnection == null))) {
                 return true;
             }
@@ -9683,28 +9683,28 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
             }
             return false;
         }
-        
+
         /// <summary>
         ///Update Order Option
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public enum UpdateOrderOption {
-            
+
             InsertUpdateDelete = 0,
-            
+
             UpdateInsertDelete = 1,
         }
-        
+
         /// <summary>
         ///Used to sort self-referenced table's rows
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private class SelfReferenceComparer : object, global::System.Collections.Generic.IComparer<global::System.Data.DataRow> {
-            
+
             private global::System.Data.DataRelation _relation;
-            
+
             private int _childFirst;
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal SelfReferenceComparer(global::System.Data.DataRelation relation, bool childFirst) {
@@ -9716,7 +9716,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                     this._childFirst = 1;
                 }
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             private global::System.Data.DataRow GetRoot(global::System.Data.DataRow row, out int distance) {
@@ -9729,8 +9729,8 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
 
                 global::System.Data.DataRow parent = row.GetParentRow(this._relation, global::System.Data.DataRowVersion.Default);
                 for (
-                ; ((parent != null) 
-                            && (traversedRows.ContainsKey(parent) == false)); 
+                ; ((parent != null)
+                            && (traversedRows.ContainsKey(parent) == false));
                 ) {
                     distance = (distance + 1);
                     root = parent;
@@ -9743,8 +9743,8 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                     traversedRows[row] = row;
                     parent = row.GetParentRow(this._relation, global::System.Data.DataRowVersion.Original);
                     for (
-                    ; ((parent != null) 
-                                && (traversedRows.ContainsKey(parent) == false)); 
+                    ; ((parent != null)
+                                && (traversedRows.ContainsKey(parent) == false));
                     ) {
                         distance = (distance + 1);
                         root = parent;
@@ -9755,7 +9755,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
 
                 return root;
             }
-            
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int Compare(global::System.Data.DataRow row1, global::System.Data.DataRow row2) {
@@ -9779,7 +9779,7 @@ SELECT ServiceTransactionID, ReservationID, ServiceID, ServiceDate FROM tblServi
                     return (this._childFirst * distance1.CompareTo(distance2));
                 }
                 else {
-                    global::System.Diagnostics.Debug.Assert(((root1.Table != null) 
+                    global::System.Diagnostics.Debug.Assert(((root1.Table != null)
                                     && (root2.Table != null)));
                     if ((root1.Table.Rows.IndexOf(root1) < root2.Table.Rows.IndexOf(root2))) {
                         return -1;

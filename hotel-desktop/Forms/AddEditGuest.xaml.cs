@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Data.SqlClient;
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Interaction logic for AddEditGuest.xaml
@@ -119,7 +119,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
             {
                 MessageBox.Show("Заполните все поля");
             }
-            
+
             else
             {
                 connection.Open();

@@ -9,12 +9,12 @@
 //------------------------------------------------------------------------------
 
 
-namespace snglrtycrvtureofspce.Hotels.Desktop.Model
+namespace Hotels.Desktop.Model
 {
 
 using System;
     using System.Collections.Generic;
-    
+
 public partial class tblGuests
 {
 

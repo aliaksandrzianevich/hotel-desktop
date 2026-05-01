@@ -1,9 +1,9 @@
-﻿<Window x:Class="snglrtycrvtureofspce.Hotels.Desktop.AddEditEmployee"
+﻿<Window x:Class="Hotels.Desktop.AddEditEmployee"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:snglrtycrvtureofspce.Hotels.Desktop"
+        xmlns:local="clr-namespace:Hotels.Desktop"
         mc:Ignorable="d"
         Title="Добавление сотрудника" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" WindowState="Normal" Height="520" Width="740">
     <Canvas Margin="0,75,23,54" x:Name="cnvEmployee" HorizontalAlignment="Right" Width="657" >

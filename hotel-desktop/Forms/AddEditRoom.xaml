@@ -1,9 +1,9 @@
-﻿<Window x:Class="snglrtycrvtureofspce.Hotels.Desktop.AddEditRoom"
+﻿<Window x:Class="Hotels.Desktop.AddEditRoom"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:snglrtycrvtureofspce.Hotels.Desktop"
+        xmlns:local="clr-namespace:Hotels.Desktop"
         mc:Ignorable="d"
         Title="AddEditRoom" Height="554.517" Width="773.517">
     <Canvas Margin="0,68,23,54" x:Name="cnvRoom" HorizontalAlignment="Right" Width="657" >

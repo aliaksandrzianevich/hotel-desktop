@@ -3,7 +3,7 @@ using System.Data.SqlClient;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Логика взаимодействия для Nomera.xaml
@@ -155,7 +155,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
             int status = CheckRoomStatus(cmbRoomNumber.SelectedValue.ToString());
             if (status == 2)
             {
-               
+
             }
             else if (status == 3)
             {

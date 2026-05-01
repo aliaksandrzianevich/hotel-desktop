@@ -1,4 +1,4 @@
-﻿namespace snglrtycrvtureofspce.Hotels.Desktop.Model
+﻿namespace Hotels.Desktop.Model
 {
     public static class AppData
     {

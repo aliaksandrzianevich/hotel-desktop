@@ -4,7 +4,7 @@ using System.Windows.Controls;
 using System.Drawing.Printing;
 using System.Drawing;
 
-namespace snglrtycrvtureofspce.Hotels.Desktop
+namespace Hotels.Desktop
 {
     /// <summary>
     /// Логика взаимодействия для Checks.xaml
@@ -26,7 +26,7 @@ namespace snglrtycrvtureofspce.Hotels.Desktop
             this.Close();
             form.ShowDialog();
         }
-        
+
         void PrintPageHandler(object sender, PrintPageEventArgs e)
         {
             e.Graphics.DrawString(result, new Font("Arial", 14), Brushes.Black, 0, 0);
